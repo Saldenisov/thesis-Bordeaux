@@ -1,0 +1,119 @@
+\documentclass[12pt]{standalone}
+\usepackage[english,french]{babel}
+\usepackage{mathspec}
+\setmainfont[Mapping=tex-text, Numbers={Lining,Proportional}]{Times New Roman} 
+\setmathsfont(Digits)[Numbers={Lining,Proportional}]{Times New Roman}
+\setmathsfont(Latin)[Scale=MatchLowercase]{Times New Roman}
+\setmathsfont(Greek)[Scale=MatchLowercase]{Times New Roman}
+\usepackage{tikz}
+\usetikzlibrary{arrows,decorations.pathmorphing,shadows,calc,intersections}
+
+
+\newdimen\XCoord
+\newdimen\YCoord
+
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+\newcommand*{\LabelCurrentCoordinate}[2]{\fill [#1] ($(\XCoord,\YCoord)$) circle (2pt) node [right] {#2};}%
+
+\tikzset{
+%Define standard arrow tip
+>=stealth'
+}
+
+%\definecolor{minecolor}{rgb}{256,0,0}
+\newcommand{\minecolor}{none}
+
+\begin{document}
+\begin{tikzpicture}
+\draw [<->,line width=1pt] (-1.3,2.4) node (yaxis) [pos=0.85,scale=0.5,rotate=90,yshift=30mm,xshift=8mm] {Energy}
+|- (3,-1.8) node (xaxis) [pos=0.75,yshift=-2mm,scale=0.5] {Nuclear configuration};
+%MAIN
+\draw[name path=main,scale=1,domain=-1.01:2,smooth,variable=\x,black] plot ({\x-.1},{1/pow(12,\x)-2/pow(6,\x)}) node[xshift=1.5mm,scale=0.5] {$ S_0$};
+%Exc1
+\draw[name path=exc1,scale=1,domain=-.75:1.79,smooth,variable=\x,black] plot ({\x+.27},{1.15/pow(12,(\x-.25))-2.15/pow(6,(\x-.25))+1.2}) node[xshift=1.5mm,scale=0.5] {$ T_1$};
+
+%Exc2
+\draw[name path=exc2,scale=1,domain=-.6:1.81,smooth,variable=\x,black] plot ({\x-.1},{1.2/pow(12,(\x-.25))-2.15/pow(6,(\x-.25))+2.2}) node[xshift=1.5mm,scale=0.5] {$ S_1$};
+
+
+
+%Line on main
+
+\path[name path=zero0,draw=\minecolor] (-1.2,-1.3)--++(1.5,0);
+\path [name intersections={of=main and zero0}];
+\coordinate (A0) at (intersection-1);
+\coordinate (B0) at (intersection-2);
+\draw (A0)--(B0);
+\draw[dashed] (B0)--++(3,0) coordinate (C)  node[scale=0.5,anchor=west,black] {0};
+\draw[name path=wave,->,line width=1pt] (C)--++(0,3.7) node[pos=0.75,scale=0.5,rotate=90,yshift=3mm] {Wavenumbers};
+
+
+\foreach \i in {1,2,...,12} {
+ \path[name path=zero\i,draw=\minecolor] (-1.2,-1.3+\i*.14-0.14*\i*\i/40)--++(1+\i*.2,0);
+ \path [name intersections={of=main and zero\i}];
+ \coordinate (A\i) at (intersection-1);
+ \coordinate (B\i) at (intersection-2);
+ \draw (A\i)--(B\i);
+}
+
+
+
+
+%Lines on exc
+%I
+\path[name path=T0,draw=\minecolor] (-.3,0.04)--++(.8,0);
+\path [name intersections={of=T0 and exc1}];
+\coordinate (D0) at (intersection-1);
+\coordinate (F0) at (intersection-2);
+\draw (D0)--(F0);
+
+\foreach \i in {1,2,...,7} {
+	\path[name path=T\i,draw=\minecolor] (-.5,.04+\i*.14-0.14*\i*\i/40)--++(1+\i*.2,0);
+	\path [name intersections={of=exc1 and T\i}];
+	\coordinate (D\i) at (intersection-1);
+	\coordinate (F\i) at (intersection-2);
+	\draw (F\i)--(D\i);
+}
+
+%II
+\path[name path=S10,draw=\minecolor] (-.5,1.18)--++(.8,0);
+\path [name intersections={of=S10 and exc2}];
+\coordinate (E0) at (intersection-1);
+\coordinate (K0) at (intersection-2);
+\draw (E0)--(K0);
+
+\foreach \i in {1,2,...,8} {
+	\path[name path=S1\i,draw=\minecolor] (-.8,1.18+\i*.14-0.14*\i*\i/40)--++(1+\i*.2,0);
+	\path [name intersections={of=exc2 and S1\i}];
+	\coordinate (E\i) at (intersection-1);
+	\coordinate (K\i) at (intersection-2);
+	\draw (E\i)--(K\i);
+}
+
+
+\draw[->,line width=0.7pt] ($(A0)+(0.18,0)$)--(E5) node[pos=0.58,scale=0.5,rotate=90,yshift=2mm] {Abs.};
+
+\path[name path=abs,draw=\minecolor] (K5)--++(3,0);
+\path [name intersections={of=abs and wave}];
+\coordinate (J) at (intersection-1);
+\draw[dashed] (K5)--(J);
+
+%GaussI
+\draw[scale=1,domain=1.3:2.25,smooth,variable=\x,blue,rotate=90,samples=100] plot ({\x},{-1*exp(-25*(\x-1.8)*(\x-1.8))-2.62}) node[scale=0.5,black,xshift=12mm] {Absorption};
+
+%Gauss2
+\draw[scale=1,domain=.2:1.28,smooth,variable=\x,blue,rotate=90,samples=100] plot ({\x},{-1*exp(-20*(\x-.75)*(\x-.75))-2.62}) node[scale=0.5,black,xshift=12mm] {Fluorescence}  ;
+
+%Gauss2
+\draw[scale=1,domain=-.85:0.25,smooth,variable=\x,blue,rotate=90,samples=100] plot ({\x},{-1*exp(-15*(\x+.3)*(\x+.3))-2.62}) node[scale=0.5,black,xshift=15mm] {Phosphorescence}  ;
+
+
+\draw[dashed,fill=gray,opacity=0.2] ($(E0)+(0.2,0)$)--(B1)--++(2,0)--(C)--++(0,2)--($(K0)+(1.5,0)$)--(K0);
+\draw[line width=0.7pt,->] ($(E0)+(0.2,0)$)--(B1) node[pos=0.45,scale=0.5,rotate=90,yshift=3mm] {Fluo.};
+
+
+\draw[dashed,fill=gray,opacity=0.4] ($(D0)+(0.2,0)$)--(B4)--++(1.5,0)--(C)--++(0,1)--($(F0)+(1,0)$)--(F0);
+\draw[line width=0.7pt,->] ($(D0)+(0.2,0)$)--(B4) node[pos=0.45,scale=0.5,rotate=90,yshift=3mm] {Phos.};
+
+\end{tikzpicture}
+\end{document}

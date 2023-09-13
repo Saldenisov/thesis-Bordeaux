@@ -1,0 +1,27 @@
+\frontmatter
+
+\pagestyle{plain}
+\selectlanguage{english}
+
+%Title page
+\input{parts/titlepage}
+
+%Dedication
+\input{parts/front/Dedication}
+
+%Epigraph
+\input{parts/front/Preface}
+
+%Acknowledgements
+\input{parts/front/Acknowledgments}
+
+%Extended resume
+\renewcommand*\thesection{\arabic{section}}
+\include{parts/front/Resume}
+\renewcommand*\thesection{\arabic{chapter}.\arabic{section}}
+
+
+% TableofContents
+\tableofcontents
+\listoffigures
+\listoftables

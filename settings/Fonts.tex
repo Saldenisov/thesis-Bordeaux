@@ -1,0 +1,28 @@
+%\usepackage[english,french,italian,russian,swedish,german]{babel}
+\usepackage[english,french]{babel}
+
+%Language support and main font
+\addto\captionsfrench{\def\tablename{Tableau}}
+
+
+
+\usepackage{amsmath}
+%For LuaLaTeX
+%\usepackage{fontspec}
+%\setmainfont{Times New Roman} 
+%\setmathrm{Times New Roman}
+%\setmathsf{Times New Roman}
+%\setmathtt{Times New Roman}
+%\setboldmathrm{Times New Roman}
+
+
+
+%For XeLaTeX
+\usepackage{mathspec}
+\setmainfont[Mapping=tex-text, Numbers={Lining,Proportional}]{Times New Roman} 
+\setmathsfont(Digits)[Numbers={Lining,Proportional}]{Times New Roman}
+\setmathsfont(Latin)[Scale=MatchLowercase]{Times New Roman}
+\setmathsfont(Greek)[Scale=MatchLowercase]{Times New Roman}
+\setmathrm{Times New Roman}
+
+

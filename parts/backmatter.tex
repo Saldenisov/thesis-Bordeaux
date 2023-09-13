@@ -1,0 +1,23 @@
+\backmatter
+\pagestyle{plain}
+
+\addcontentsline{toc}{chapter}{\bibname}
+\begingroup
+\setstretch{1}
+\setlength\bibitemsep{0pt}
+\renewcommand*{\bibfont}{\small}
+\sloppy %Line breaking
+\printbibliography
+\endgroup
+
+
+%INDEXES
+\printindex[cite]
+%\printindex[pms]
+
+
+%Glossary
+\glsaddall
+\renewcommand*{\glsgroupskip}{}
+\printglossary[title=Abbreviations, toctitle=Abbreviations, type=\acronymtype, style=list]
+

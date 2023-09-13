@@ -1,0 +1,233 @@
+% !TeX spellcheck = en_GB
+\chapter{How to use thesis template}
+\label{ch:how-to-use}
+%------------------------------------------------------
+\epigraph{L'art c'est \textbf{moi} -- la science c'est \textbf{nous}.}{french physiologist, Claude Bernard (1813--1878) \index[cite]{Bernard, C.}}
+%======================================================
+\startcontents[chapter]
+\printcontents[chapter]{}{-1}{\setcounter{tocdepth}{3}}
+\newpage
+
+
+\section{General Description}
+This thesis template was done in 2013-2015 according to the rules of Université de Bordeaux. It can be compiled with two different chains:
+\begin{enumerate}
+	\item xelatex -- beamer -- makeglossaries -- xelatex -- xelatex
+	\item lualatex -- beamer -- makeglossaries -- lualatex -- lualatex
+\end{enumerate}
+
+I as author recommend to use \textbf{MiKTeX} or \textbf{TeX Live} as a \LaTeX distributions, and from my opinion best editors for general purposes are TeXStudio or TeXMaker.
+
+
+\subsection{Organization}
+
+Thesis is divided in several part:
+\begin{enumerate}
+	\item Settings
+	\item Front Matter (Title Page, Dedication, etc., contents, list of tables and figures)
+	\item Main Matter ( Chapters, Appendixes)
+	\item Back Matter (Bibliography, Acronyms)
+\end{enumerate}
+
+The thesis is divided in to chapters, but not in parts.
+
+The settings of thesis is mainly kept inside of thesis class \textit{thesis-bordeax.cls}. Settings for bibliography could be found in \textit{settings/Bib.tex}, for fonts \textit{settings/Fonts.tex}.
+
+\subsection{ARARA}
+I highly recommend to use \textbf{Arara\footnote{Automation of \LaTeX compilation}}. To add Arara command to TEXMaker this nice \textit{post} could be used: \href{http://tex.stackexchange.com/a/107995/43831}{http://tex.stackexchange.com/a/107995/43831}
+
+
+\section{Floats}
+
+\subsection{Figures/Images/Drawings}
+I recommend to use \textit{TikZ}+\textit{pgfplots} packages to built graphs. All presented graphs in this manual are made using this two packages (see \textit{figures} folder for corresponding \textit{tex} file).\par
+
+There are several ways to insert figures in thesis:
+
+\begin{itemize}
+	\item Standard way
+	\begin{lstlisting}
+	\begin{figure}
+	\centering
+	%\includegraphics[width=6cm]{Name-of-file}
+	\caption{Caption.}
+	\label{fig:firstFig}
+	\end{figure}
+	\end{lstlisting}
+	
+	\item Using \lstinline|\inputfigure| command:
+	
+	\lstinline|\inputfigure[scale 0 to 1]{File Name}[Caption][Label][type of file pdf, png]|, example: \lstinline|\FloatBarrier\inputfigure[.5]{Chapter1/streak-cameraTIKZ}[Principle scheme of a conventional streak camera][streak-camera][pdf] \FloatBarrier|
+	
+	\FloatBarrier
+	\inputfigure[.5]{Chapter1/streak-cameraTIKZ}[Principle scheme of a conventional streak camera][streak-camera][pdf]
+	\FloatBarrier
+	
+	
+	To get an idea hot \textit{TikZ} package works see \textit{figures/Chapter1/streak-cameraTIKZ.tex}:
+	
+	
+	
+	\item Using \lstinline|\inputfiguresH}[scale]{Name1}{Name2}[Caption1][Caprtion2][Label1][Label2][Height1][Height1]| command:
+	
+	
+	
+	\begin{lstlisting}
+	\FloatBarrier
+	\inputfiguresH[1]{Chapter1/RuII-GS-bleaching.pdf}{Chapter1/RuII-anth-3growth.pdf}[\acrshort{TRABS} kinetics of ground state bleaching changes for \textbf{2} at $485$\,nm in \acetonitrile ($\lambda_{exc}=465$\,nm)][\acrshort{TRABS} kinetics of anthracene triplet grow-in for \textbf{2} at $430$\,nm in \acetonitrile ($\lambda_{exc}=465$\,nm)][RuII-GS-bleaching][RuII-anth-3growth][5][5]
+	\FloatBarrier
+	\end{lstlisting}
+	
+	
+	\FloatBarrier
+	\inputfiguresH[1]{Chapter1/RuII-GS-bleaching.pdf}{Chapter1/RuII-anth-3growth.pdf}[\acrshort{TRABS} kinetics of ground state bleaching changes for \textbf{2} at $485$\,nm in \acetonitrile ($\lambda_{exc}=465$\,nm)][\acrshort{TRABS} kinetics of anthracene triplet grow-in for \textbf{2} at $430$\,nm in \acetonitrile ($\lambda_{exc}=465$\,nm)][RuII-GS-bleaching][RuII-anth-3growth][5][5]
+	\FloatBarrier
+	
+	
+\end{itemize}
+
+
+\subsection{Tables}
+
+
+\begin{lstlisting}
+\begin{table}[h!]
+\addtocounter{totaltables}{1}
+\caption{Characteristic time, distance and energy ranges for chemistry and physics.}
+\label{table:Ranges}
+\centering
+\begin{tabular}{|x{2cm}|>{\centering\arraybackslash}x{2.5cm}|>{\centering\arraybackslash}x{3.7cm}|>{\centering\arraybackslash}x{3.1cm}|}
+
+\hline  
+&  Time range, s&  Size range, m&  Energy range, eV\\ 
+\hline  
+Chemistry&  $\rm 10^{-15} - ^*$& $\rm 10^{-10} -10^{1}$  (11~orders) & $\rm 10^{-4} -10^{0}$ (4~orders) \\
+
+\hline  
+
+Physics&  $\rm 10^{-44} -10^{18}$ ($\rm >50$~orders)& $\rm 10^{-35}-10^{-18} -10^{26}$ ($\rm >40$~orders) & up to $\rm 10^{70}$ \\
+
+\hline 
+\end{tabular} 
+\end{table}
+\end{lstlisting}
+
+\input{tables/chapter1/table.tex}
+
+\input{tables/chapter1/table2.tex}
+
+
+\section{Bibliography, Citations and Author Index}
+
+The bibliography print commands are located in \textit{backmatter.tex} file:
+
+\begin{lstlisting}
+\addcontentsline{toc}{chapter}{\bibname}
+\begingroup
+\setstretch{1}
+\setlength\bibitemsep{0pt}
+\renewcommand*{\bibfont}{\small}
+\sloppy %Line breaking
+\printbibliography
+\endgroup
+\end{lstlisting}
+
+The settings are located in \textit{settings/Bib.tex} file. The library itself is stored in \textit{bibliography.thesis-bib.bib} file:
+
+\begin{lstlisting}
+@phdthesis{Ducrot-thesis,
+author = {Ducrot, A.},
+school = {Universit\'{e} Bordeaux 1},
+title = {{Synthèses et études de systèmes supramoléculaires photocommutables : récepteurs à ion et molécules entrelacées}},
+year=2012,
+}
+
+@article{Haas-1971,
+author = {Haas, Y. and Stein, G.},
+journal = {J. Phys. Chem.},
+number = {24},
+title = {{Pathways of radiative and radiationless transitions in europium(III) solutions. Role of solvents and anions}},
+volume = {75},
+year = {1971}
+}
+\end{lstlisting}
+
+To cite any item from the library the citation command should be used \lstinline|\cite{label}| for example \lstinline|\cite{Berlman1971}| which gives: \cite{Berlman1971}.
+
+The authors from the article automatically added to \textit{author index} by this code located in \textit{settings/Bib.tex}:
+
+\begin{lstlisting}
+\usepackage{imakeidx}
+\makeindex[intoc,name=cite,title=Author Index,columns=2]
+\indexsetup{level=\chapter*,toclevel=chapter,noclearpage}
+
+%Include authors from bibliography to author index.
+\DeclareIndexNameFormat{default}{%
+\usebibmacro{index:name}{\index[cite]}{#1}{#3}{#5}{#7}}
+
+\DeclareIndexNameFormat{nondefault}{%
+\usebibmacro{index:name}{\nocite[cite]}{#1}{#3}{#5}{#7}}  
+\end{lstlisting}
+
+
+
+\section{Abbreviations}
+The acronyms are kept in the file \textit{Settings/abbr.tex}, which you can find  inside of \textit{Bib.tex} file:
+
+\begin{lstlisting}
+%Glossaries
+\usepackage[nonumberlist,acronym,toc,nomain,nopostdot,nogroupskip]{glossaries}
+\input{Settings/abbr}
+\makeglossaries
+\end{lstlisting}
+
+To set up new acronym this code should be used \lstinline|\newacronym{CSS}{CSS}{Charge Separated State}|.
+
+There are tree ways to use acronym in the text:
+\begin{enumerate}
+	\item short \lstinline|\acrshort{CSS}| -- \acrshort{CSS}
+	\item long  \lstinline|\acrlong{CSS}| -- \acrlong{CSS}
+	\item full \lstinline|\acrfull{CSS}| -- \acrfull{CSS}
+\end{enumerate}
+  
+At the of thesis the full list of acronyms will be printed:
+\begin{lstlisting}
+%Glossary
+\glsaddall
+\renewcommand*{\glsgroupskip}{}
+\printglossary[title=Abbreviations, toctitle=Abbreviations, type=\acronymtype, style=list]
+\end{lstlisting}
+
+\section{Indexes}
+
+In the thesis two indexes are created in \textit{settings/Bib.tex} file:
+
+\begin{lstlisting}
+\usepackage{imakeidx}
+\makeindex[intoc,name=pms,title=General,columns=2]
+\makeindex[intoc,name=cite,title=Author Index,columns=2]
+\indexsetup{level=\chapter*,toclevel=chapter,noclearpage}
+\end{lstlisting}
+
+The \textit{cite} index is used to store cited authors, \lstinline|\cite{}| command automatically adds author in author index. To add manually this command should be used \lstinline|\index[cite]{Bernard, C.}|
+
+
+The indexes are printed in the of thesis:
+
+\begin{lstlisting}
+%INDEXES
+\printindex[cite]
+%\printindex[pms]
+\end{lstlisting}
+
+
+\section{References}
+
+The package \textit{hyperref} is used to create references in the thesis. To create a reference this commands are used:
+\begin{itemize}
+	\item reference to chapter, section, etc. \lstinline|\ref{label}|, for example reference to chapter \textit{How to use thesis template}  \lstinline|\ref{ch:how-to-use}| will give \ref{ch:how-to-use}, or figure....
+	\item reference to chapter, section, figure, table etc. page \lstinline|p.~\page ref{ch:how-to-use}| -- p.~\pageref{ch:how-to-use}. 
+\end{itemize}
+
+
+\stopcontents[chapter]

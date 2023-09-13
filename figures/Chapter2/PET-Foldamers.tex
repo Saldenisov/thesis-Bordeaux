@@ -1,0 +1,170 @@
+% arara: xelatex: { shell: yes }
+\documentclass[12pt]{standalone}
+\usepackage{tikz}
+\usepackage[english,french]{babel}
+\usepackage{mathspec}
+\setmainfont[Mapping=tex-text, Numbers={Lining,Proportional}]{Times New Roman} 
+\setmathsfont(Digits)[Numbers={Lining,Proportional}]{Times New Roman}
+\setmathsfont(Latin)[Scale=MatchLowercase]{Times New Roman}
+\setmathsfont(Greek)[Scale=MatchLowercase]{Times New Roman}
+\setmathrm{Times New Roman}
+
+\usetikzlibrary{arrows,shadows,calc,shapes,backgrounds,intersections,positioning,decorations.markings,decorations.pathmorphing,decorations.pathreplacing,decorations.text,shadows.blur,decorations.text}
+\usetikzlibrary{intersections}
+\usetikzlibrary{backgrounds}
+\newdimen\XCoord
+\newdimen\YCoord
+\newcommand*{\ExtractCoordinate}[1]{\path (#1); \pgfgetlastxy{\XCoord}{\YCoord};}%
+
+\begin{document}
+	
+	\makeatletter
+	\pgfdeclareradialshading[tikz@ball]{ball}{\pgfqpoint{0bp}{0bp}}{%
+		color(0bp)=(tikz@ball!50!white);
+		color(10bp)=(tikz@ball!40!white);
+		color(15bp)=(tikz@ball!80!black);
+		color(20bp)=(tikz@ball!70!black);
+		color(30bp)=(tikz@ball!60!black)}
+	\makeatother
+	
+	\makeatletter
+	\pgfdeclareradialshading[tikz@ball]{ball}{\pgfqpoint{0bp}{0bp}}{%
+		color(0bp)=(tikz@ball!50!white);
+		color(10bp)=(tikz@ball!40!white);
+		color(15bp)=(tikz@ball!80!black);
+		color(20bp)=(tikz@ball!70!black);
+		color(30bp)=(tikz@ball!60!black)}
+	\makeatother
+	
+\begin{tikzpicture}
+\node[] (first) at (0,0) {
+	
+	\begin{tikzpicture}
+	
+	
+	\node[] (redB) at (0,0) {\begin{tikzpicture}
+		\begin{scope}
+		\clip (0,0) circle (1);
+		\draw [fill=black!70] (0,0) circle (1cm);
+		\begin{scope}[transform canvas={rotate=45}]
+		\shade [ball color=red] (0,0.5) ellipse (1.8 and 1.6);
+		\end{scope}
+		\node[text=blue] at (0,0) {Donor};
+		\end{scope}
+		
+		\draw[line width=2pt] (-0.7,-0.5)--++(1.3,0);
+		\draw[line width=2pt] (-0.7,0.5)--++(1.3,0);
+		
+		\draw[line width=.5pt,-stealth'] (-0.2,-.7)--++(0,0.4);
+		\draw[line width=.5pt,stealth'-,opacity=1] (0,-.7)--++(0,0.4);
+	%	\draw[line width=.5pt,stealth'-,dashed,opacity=0.3] (0,.3)--++(0,0.4);
+		\end{tikzpicture}
+		
+	};
+	
+	
+	\node[] (blueB) at (5,0) {\begin{tikzpicture}
+		\begin{scope}
+		\clip (0,0) circle (1);
+		\draw [fill=black!70] (0,0) circle (1cm);
+		\begin{scope}[transform canvas={rotate=45}]
+		\shade [ball color=blue] (0,0.5) ellipse (1.8 and 1.6);
+		\end{scope}
+		\node[text=red] at (0,0) {Acceptor};
+		
+		\end{scope}
+		\draw[line width=2pt] (-0.7,-0.5)--++(1.3,0);
+		\draw[line width=2pt] (-0.7,0.5)--++(1.3,0);
+		
+		\draw[line width=.5pt,-stealth'] (-0.2,-.7)--++(0,0.4);
+		%\draw[line width=.5pt,stealth'-, white] (0,-.7)--++(0,0.4);
+		\draw[line width=.5pt,stealth'-, opacity=1] (0,.3)--++(0,0.4);
+		\end{tikzpicture}
+		
+	};	
+	
+	
+	\draw[-stealth,line width=3pt,postaction={decorate,decoration={raise=-2.5ex,text along path,text align=center,text={Electron transfer}}}] ($(redB.-30)-(0.3,0)$)	to [out=-30,in=-150] ($(blueB.-150)+(0.3,0)$) ;
+	
+	\draw[line width=2pt,decorate,decoration={snake,segment length=10mm,amplitude=4mm}, black,-stealth]  ($(redB.0)+(-.5,0)$) -- ($(blueB.180)+(0.3,0)$) node[blue,xshift=-17mm,yshift=-4mm,fill=red!50,circle,inner sep = 0pt] {e$^-$};
+	
+	\begin{scope}[on background layer]
+		\draw[line width=10pt,decorate,decoration={snake,segment length=10mm,amplitude=4mm}, red]  ($(redB.0)+(-.5,0)$) -- ($(blueB.180)+(0.5,0)$);
+	\end{scope}
+	
+
+	\node[] at (5,1.3) {\includegraphics[width=1cm]{antenna}};
+	\node[] at (2.5,2.5) {\includegraphics[width=2cm]{sun}};
+	\draw[line width=2pt,decorate,decoration={snake,segment length=5mm,amplitude=1mm}, red,-stealth] (2.5,2.3)--(5,1.3);
+	\path[] (0,-2)--++(1,0);
+\end{tikzpicture}
+	
+	};
+	
+
+\node[] (second)at (10,0) {
+	\begin{tikzpicture}
+	
+	
+	\node[] (redB) at (0,0) {\begin{tikzpicture}
+		\begin{scope}
+		\clip (0,0) circle (1);
+		\draw [fill=black!70] (0,0) circle (1cm);
+		\begin{scope}[transform canvas={rotate=45}]
+		\shade [ball color=red] (0,0.5) ellipse (1.8 and 1.6);
+		\end{scope}
+		\node[text=blue] at (0,0) {Donor$^+$};
+		\end{scope}
+		
+		\draw[line width=2pt] (-0.7,-0.5)--++(1.3,0);
+		\draw[line width=2pt] (-0.7,0.5)--++(1.3,0);
+		
+		\draw[line width=.5pt,-stealth'] (-0.2,-.7)--++(0,0.4);
+		%\draw[line width=.5pt,stealth'-,white] (0,-.7)--++(0,0.4);
+		%\draw[line width=.5pt,stealth'-,dashed,opacity=0.3] (0,.3)--++(0,0.4);
+		\end{tikzpicture}
+		
+	};
+	
+	
+	\node[] (blueB) at (5,0) {\begin{tikzpicture}
+		\begin{scope}
+		\clip (0,0) circle (1);
+		\draw [fill=black!70] (0,0) circle (1cm);
+		\begin{scope}[transform canvas={rotate=45}]
+		\shade [ball color=blue] (0,0.5) ellipse (1.8 and 1.6);
+		\end{scope}
+		\node[text=red] at (0,0) {Acceptor$^-$};
+		
+		\end{scope}
+		\draw[line width=2pt] (-0.7,-0.5)--++(1.3,0);
+		\draw[line width=2pt] (-0.7,0.5)--++(1.3,0);
+		
+		\draw[line width=.5pt,-stealth'] (-0.2,-.7)--++(0,0.4);
+		\draw[line width=.5pt,stealth'-, red] (0,-.7)--++(0,0.4);
+		\draw[line width=.5pt,stealth'-, opacity=1] (0,.3)--++(0,0.4);
+		\end{tikzpicture}
+		
+	};	
+	
+	
+%	\draw[-stealth,line width=3pt,postaction={decorate,decoration={raise=-2.5ex,text along path,text align=center,text={Electron transfer}}}] ($(redB.-30)-(0.3,0)$)	to [out=-30,in=-150] ($(blueB.-150)+(0.3,0)$) ;
+	
+	\begin{scope}[on background layer]
+		\draw[line width=10pt,decorate,decoration={snake,segment length=10mm,amplitude=4mm}, red]  ($(redB.0)+(-.5,0)$) -- ($(blueB.180)+(0.5,0)$);
+	\end{scope}
+	
+	
+	\node[] at (5,1.3) {\includegraphics[width=1cm]{antenna}};
+	\node[] at (2.5,2.5) {\includegraphics[width=2cm]{sun}};
+%	\draw[line width=2pt,decorate,decoration={snake,segment length=5mm,amplitude=1mm}, red,-stealth] (2.5,2.3)--(5,1.3);
+	\draw[white] (0,-2)--++(1,0);
+\end{tikzpicture}	
+	
+	
+	};
+	
+	\draw[-stealth,line width=5pt] ($(first.east)+(0,-.6)$)--($(second.west)+(0,-.6)$);
+\end{tikzpicture}
+
+\end{document}

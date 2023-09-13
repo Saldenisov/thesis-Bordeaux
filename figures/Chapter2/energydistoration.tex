@@ -1,0 +1,69 @@
+\documentclass[tikz,12pt]{standalone}
+\usepackage[english,french]{babel}
+\usepackage{mathspec}
+\setmainfont[Mapping=tex-text, Numbers={Lining,Proportional}]{Times New Roman} 
+\setmathsfont(Digits)[Numbers={Lining,Proportional}]{Times New Roman}
+\setmathsfont(Latin)[Scale=MatchLowercase]{Times New Roman}
+\setmathsfont(Greek)[Scale=MatchLowercase]{Times New Roman}
+\setmathrm{Times New Roman}
+\usetikzlibrary{calc,arrows,decorations.pathmorphing,intersections}
+\newcommand{\Grid}[2]{
+\draw[white] (0,0)--(#1cm,0)--(#1cm,#2cm)--(0,#2cm)--(0,0);
+\draw[very thin,color=gray] (0,0) grid (#1,#2);
+ \foreach \j  in {0,...,#1} {
+      \node[] at (\j,0) {$\j$};
+    }
+    
+ \foreach \j  in {0,...,#2} {
+      \node[] at (0,\j) {$\j$};
+    }}
+\tikzset{
+%Define standard arrow tip
+>=stealth'
+}
+\begin{document}
+\begin{tikzpicture}[line width=1.5pt, node/.style={rectangle,minimum width=2cm,minimum height=0.3cm,anchor=west,color=white,fill=black,font=\small},snake it/.style={decorate, decoration={snake,segment length=18mm, amplitude=1mm}}]
+%GRID
+%-------------------------------------------------------------
+%\Grid{7}{8}
+%=============================================================
+
+
+%Energy+Distortion
+%-------------------------------------------------------------
+\draw[->] (0,2)--(0,7) node[rotate=90,pos=0.5,fill=white] {ENERGY};
+\draw[->] (1,0)--(7,0) node[pos=0.5,fill=white] {DISTORTION};
+%=============================================================
+
+
+%States
+%-------------------------------------------------------------
+%1
+\node[node] (A) at(1,0.5) {A};
+%2
+\node[node] (A*) at(6,7.5) {$\rm A^*$};
+%for loop
+ \foreach \j  in {0,...,6} {
+\draw (1-\j*.1,9.5+\j*0.2)--++(2,0);
+    }
+\draw[] (6,4.3)--++(2,0);
+ \foreach \j  in {0,...,2} {
+\draw (3.3+\j*1.3,9-\j*0.6)--++(2,0);
+    }
+ \foreach \j  in {0,...,2} {
+\draw (4.9-\j*.85,3.5-\j*.85)--++(2,0);
+    }      
+%=============================================================
+
+%Connection lines
+%-------------------------------------------------------------
+\draw[->] ($(A.north)-(0.4,-.2)$) -- (1.6,9.2) node[rotate=90,pos=0.5,fill=white] {ABSORPTION};
+\draw[->] (A*.south) --++ (0,-2.9) node[rotate=90,pos=0.45,fill=white] {EMISSION};
+\draw[->,snake it] (2.4,9.2) -- ($(A.north)+(0.4,.2)$);
+\draw[->,snake it] (2.4,9.8) -- ($(A*.north)+(0,.1)$);
+\draw[->,snake it] ($(A*.south)-(0,2.9)$) -- ($(A.north)+(0.6,0)$);
+%=============================================================
+
+
+\end{tikzpicture}
+\end{document}

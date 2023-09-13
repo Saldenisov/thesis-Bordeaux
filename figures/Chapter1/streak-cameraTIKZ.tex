@@ -1,0 +1,227 @@
+\documentclass[12pt]{standalone}
+\usepackage{tikz}
+\usepackage[english,french,russian]{babel}
+\usepackage{fontspec}
+\setmainfont{Times New Roman} 
+
+\usetikzlibrary{arrows,shadows,calc,shapes,backgrounds,intersections,positioning} 
+\usetikzlibrary{decorations.markings,decorations.pathmorphing,decorations.pathreplacing}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{calc,3d}
+\tikzset{
+%Define standard arrow tip
+>=triangle 45
+}
+
+
+\newcommand{\parr}[7]{
+	\draw[#7](#1,#2,#3-#5) -- (#1,#2+#4,#3-#5) -- (#1+#6,#2+#4,#3-#5) -- (#1+#6,#2,#3-#5) -- cycle ;
+	
+	
+	\draw[#7](#1,#2,#3) -- (#1,#2+#4,#3) -- (#1+#6,#2+#4,#3) -- (#1+#6,#2,#3) -- cycle ;
+	
+	
+	\draw[#7](#1,#2+#4,#3) -- (#1,#2+#4,#3-#5) -- (#1+#6,#2+#4,#3-#5) -- (#1+#6,#2+#4,#3) -- cycle ;
+	
+	\draw[#7](#1+#6,#2,#3) -- (#1+#6,#2+#4,#3) -- (#1+#6,#2+#4,#3-#5) -- (#1+#6,#2,#3-#5) -- cycle ;
+}
+
+\newcommand{\parrE}[7]{
+	\draw[#7](#1,#2,#3-#5) -- (#1,#2+#4,#3-#5) -- (#1+#6,#2+#4,#3-#5) -- (#1+#6,#2,#3-#5) -- cycle ;
+	
+	\draw[#7](#1,#2,#3) -- (#1,#2,#3-#5);
+	
+	\draw[#7](#1,#2,#3) -- (#1,#2+#4,#3) -- (#1+#6,#2+#4,#3) -- (#1+#6,#2,#3) -- cycle ;
+	
+	
+	\draw[#7](#1,#2+#4,#3) -- (#1,#2+#4,#3-#5) -- (#1+#6,#2+#4,#3-#5) -- (#1+#6,#2+#4,#3) -- cycle ;
+	
+	\draw[#7](#1+#6,#2,#3) -- (#1+#6,#2+#4,#3) -- (#1+#6,#2+#4,#3-#5) -- (#1+#6,#2,#3-#5) -- cycle ;
+}
+
+\begin{document}
+\thispagestyle{empty} 
+
+
+\tdplotsetmaincoords{80}{150}
+
+\pgfmathsetmacro{\rvec}{3}
+\pgfmathsetmacro{\thetavec}{90}
+\pgfmathsetmacro{\phivec}{0}
+
+\begin{tikzpicture}[tdplot_main_coords,
+		cube1/.style={very thick,black,fill=cyan!30},
+		cube2/.style={very thick,black},
+		cube3/.style={very thick,red!60,fill=green!50},cube4/.style={very thick,black,fill=gray!50},
+		grid/.style={very thin,gray},node1/.style={draw=gray,fill=yellow!50,minimum width=5cm, minimum height=1cm},node2/.style={draw=gray,fill=gray!10,minimum width=4.6cm, minimum height=1.3cm}, axis/.style={,blue,thick},line join=round,font=\small, node distance=0pt]
+
+%\draw[thick,->] (0,0,0) -- (4,0,0) node[anchor=north east]{$x$};
+%\draw[thick,->] (0,0,0) -- (0,4,0) node[anchor=north west]{$y$};
+%\draw[thick,->] (0,0,0) -- (0,0,4) node[anchor=south]{$z$};
+
+\coordinate (O) at (0,0,0);
+
+
+
+\tdplotsetcoord{P}{\rvec}{\thetavec}{\phivec}
+
+
+%\draw[-stealth,color=red] (O) -- (P);
+
+
+\tdplotsetthetaplanecoords{\phivec}
+
+
+\tdplotsetrotatedcoords{\phivec}{\thetavec}{0}
+
+
+\draw[dashed, line width=1pt] (5,-2,0)--++(0,4,0);
+\draw[dashed, line width=1pt] (6,-2,0)--++(0,4,0);
+\draw[dashed, line width=1pt] (7,-2,0)--++(0,4,0);
+\draw[dashed, line width=1pt] (8,-2,0)--++(0,4,0);
+\draw[dashed, line width=1pt] (9,-2,0)--++(0,4,0);
+
+\draw[dashed, line width=1pt] (5,-2,0)--++(4,0,0);
+\draw[dashed, line width=1pt] (5,-1,0)--++(4,0,0);
+\draw[dashed, line width=1pt] (5,0,0)--++(4,0,0);
+\draw[dashed, line width=1pt] (5,1,0)--++(4,0,0);
+\draw[dashed, line width=1pt] (5,2,0)--++(4,0,0);
+
+
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=2pt]{(0,0,0)}{2}{0}{360}{anchor=north west,color=black}{}
+
+\draw[line width=1pt,red] (0,0,.15)--++(0,.7,0)--++(0,0,-.3)--++(0,-1.4,0)--++(0,0,0.3)--cycle;
+
+
+%\draw[line width=2pt] (-5,0,2)--++(-9,0,0);
+%\draw[line width=2pt] (-5,0,-2)--++(-9,0,0);
+
+%Lenses
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=2pt]{(-0,0,-3)}{.95}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=2pt,fill=white]{(-0,0,-2)}{.95}{0}{360}{anchor=north west,color=black}{}
+
+%Electrode
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=2pt,fill=white]{(0,0,-5.5)}{2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=black,line width=1pt,fill=white]{(0,0,-5.4)}{2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=black,line width=1pt,fill=white]{(0,0,-5.3)}{2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=black,line width=1pt,fill=white]{(0,0,-5.2)}{2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=black,line width=1pt,fill=white]{(0,0,-5.1)}{2}{0}{360}{anchor=north west,color=black}{}
+
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=2pt,fill=white]{(0,0,-5)}{2}{0}{360}{anchor=north west,color=black}{}
+
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=2pt]{(-0,0,-5)}{.95}{0}{360}{anchor=north west,color=black}{}
+
+\draw[line width=1pt,red] (-5,0,.15)--++(0,.7,0)--++(0,0,-.3)--++(0,-1.4,0)--++(0,0,0.3)--cycle;
+
+
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=2pt,fill=white]{(0,0,-14)}{2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=2pt]{(-0,0,-13)}{.95}{0}{360}{anchor=north west,color=black}{}
+
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=2pt,fill=white]{(0,0,-12.2)}{2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=2pt,fill=white]{(0,0,-12)}{2}{0}{360}{anchor=north west,color=black}{}
+
+\draw[fill=white] (-9.5,.75,.75)--++(0,-1.5,0)--++(1.5,0,0)--++(0,1.5,0)--cycle;
+\draw[line width=2pt] (-8.75,0,-.75)--++(0,0,-3)--++(-0.5,0,0)--++(1,0,0);
+\draw[line width=2pt] (-8.75,0,-4)--++(-.4,0,0)-++(0.8,0,0);
+\draw[line width=2pt] (-8.75,0,-4.25)--++(-.3,0,0)-++(0.6,0,0);
+\draw[line width=2pt] (-8.75,0,-4.5)--++(-.15,0,0)-++(0.3,0,0);
+\draw[line width=2pt] (-8.75,0,.75)--++(0,0,4)--++(2,0,0);
+
+\parr{-6.75}{-1.5}{5.5}{3}{1.5}{4}{cube1}
+\node[anchor=west,xshift=-1mm,rotate=4.5] at (-2.8,1.5,4.8) {\Large Sweep circuit};
+\draw[line width=2pt] (-0.75,0,4.75)--++(-2,0,0);
+
+% Trigger
+\draw[line width=2pt] (0,0,4.75)--++(0.3,0,0)--++(0,0,0.5)--++(0.2,0,0)--++(0,0,-0.5)--++(0.4,0,0);
+
+
+\draw[fill=white] (-9.5,.75,-.75)--++(0,-1.5,0)--++(1.5,0,0)--++(0,1.5,0)--cycle;
+
+
+
+
+
+%New coordinate
+
+\tdplotsetrotatedcoords{90}{90}{0}
+
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=1pt,fill=red]{(0,-3,-1)}{.2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=1pt,fill=green]{(0,-2.5,-.36)}{.2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=1pt,fill=blue]{(0,-2,.36)}{.2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=1pt,fill=gray]{(0,-1.5,1)}{.2}{0}{360}{anchor=north west,color=black}{}
+
+
+
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=2pt]{(0,18,0)}{2}{0}{360}{anchor=north west,color=black}{}
+
+\draw[->] (-16.5,0,-2.5)--++(-3,0,0) node[pos=0.5,yshift=-4mm,rotate=4.2] {\Large Space};
+\draw[<-] (-20.5,0,-1.5)--++(0,0,3) node[pos=0.5,xshift=3mm,rotate=90] {\Large Time};
+
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=1pt,fill=red]{(1.5,17.5,0)}{.2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=1pt,fill=green]{(1,18,0)}{.2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=1pt,fill=blue]{(.5,18.5,0)}{.2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=1pt,fill=gray]{(0,19,0)}{.2}{0}{360}{anchor=north west,color=black}{}
+
+
+
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=1pt,fill=red]{(0,8.75,-1)}{.2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=1pt,fill=green]{(-0.2,9.5,-.36)}{.2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=1pt,fill=blue]{(-.4,10.25,0.36)}{.2}{0}{360}{anchor=north west,color=black}{}
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=1pt,fill=gray]{(-.6,11,1)}{.2}{0}{360}{anchor=north west,color=black}{}
+
+
+\tdplotdrawarc[tdplot_rotated_coords,color=blue,line width=1pt,fill=white]{(-4.75,.75,0)}{.25}{0}{360}{anchor=north west,color=black}{}
+
+%\draw[thick,color=blue,tdplot_rotated_coords,->] (0,0,0) --(2,0,0) node[anchor=north]{$x’$};
+%\draw[thick,color=blue,tdplot_rotated_coords,->] (0,0,0) --(0,2,0) node[anchor=west]{$y’$};
+%\draw[thick,color=blue,tdplot_rotated_coords,->] (0,0,0) --(0,0,2) node[anchor=south]{$z’$};
+
+
+
+
+
+%nodes
+\draw[->] (9.5,-3,0)--++(0,6,0) node[pos=0.5,yshift=-3mm,rotate=-14] {\Large Space};
+
+\draw[->] (9.5,-3,0)--++(-4,0,0) node[pos=0.5,yshift=4mm,rotate=4.5] {\Large Time};
+
+\draw[->] (9.5,-3,0)--++(0,0,3) node[pos=0.5,xshift=-3mm,rotate=90] {\Large Intensity};
+
+\node[anchor=east,rotate=4.2] at (1,0,4.75) {\Large Trigger signal};
+
+\node[anchor=north] at (10,8,0) {\Large Incident light};
+
+
+\draw[->] (5,5,0) node[anchor=north] {Slit}-- (0,0,0);
+
+\draw[->] (2.5,7.2,-1) node[anchor=north] {\parbox{4cm}{ \centering Photocathode\\(light $\rightarrow$ electrons)}}-- (-5,0,-.5);
+
+\draw[->] (3,15.2,0) node[anchor=north] {\parbox{4cm}{ \centering Accelerating electrode (\small{where electrons are accelerated})}}-- (-5.2,2,0);
+
+
+
+\draw[->] (-4,12,0) node[anchor=north] {\parbox{6cm}{ \centering MCP\\(multiplies electrons)}}-- (-12,1.5,0);
+
+\draw[->] (-6,15.2,0) node[anchor=north] {\parbox{6cm}{ \centering Phosphor screen\\(electrons $\rightarrow$ light)\\({\ The intensity of the incident light can be read from the brightness of the phosphor screen, and the time and space from the position of the phosphor screen.})}}-- (-14,1.5,0);
+
+\draw[->] (-12,0,5) node[anchor=south] {\parbox{6cm}{ \centering Sweep electrode (electrons are swept in the direction from top to bottom)}}-- (-8.9,0,.75);
+
+
+\node[anchor=north] at (-2.5,0,1.8) {Lenses};
+
+\node[anchor=north] at (-18,0,3.2) {\parbox{3cm}{\centering Steak image on phosphor screen}};
+
+
+
+%Gaus
+\node[yshift=9mm,xshift=-2mm] at  (5.5,2,0) {\includegraphics[width=1cm]{gaus1}};
+
+\node[yshift=7.5mm,xshift=-15mm] at  (5.5,2,0) {\includegraphics[width=1cm]{gaus2}};
+
+\node[yshift=6mm,xshift=-30mm] at  (5.5,2,0) {\includegraphics[width=1cm]{gaus3}};
+
+\node[yshift=5mm,xshift=-45mm] at  (5.5,2,0) {\includegraphics[width=1cm]{gaus4}};
+\end{tikzpicture}
+
+
+\end{document}

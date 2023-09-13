@@ -1,0 +1,34 @@
+% arara: xelatex: { shell: yes }
+% arara: biber
+% arara: makeglossaries
+% arara: xelatex: { shell: yes }
+% arara: xelatex: { synctex: true, shell: yes }
+%=========================================================================
+%------------------THESIS TEMPLATE OF Dr. DENISOV Sergey------------------
+%=========================================================================
+%------------------------UNIVERSITÉ DE BORDEAUX---------------------------
+%------------------------------Talence------------------------------------
+%---------------------------- 2013-2015-----------------------------------
+%-------------------------BASED ON BOOK.CLS-------------------------------
+%------------------XELATEX or LULATEX+BIBER+MAKEGLOASSARIES-------------------------
+%=========================================================================
+\documentclass[a4paper,12pt,onecolumn,notitlepage,openright,twoside,singlespacing]{thesis-Bordeaux-copy}
+
+\input{settings/Commands}
+\input{settings/Bib}
+\input{settings/Fonts}
+\input{settings/Additions}
+
+
+%This packages are used just for showing some examples of code in this manual, but not used for thesis itself. So they can be deleted from the thesis
+\usepackage{xcolor}
+\usepackage{listings}
+\lstset{backgroundcolor=\color{green!3},language=[LaTeX]Tex,commentstyle=\color{green!30!black!80},basicstyle=\footnotesize,breaklines=true,numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=10pt}
+%-----------------------------------------------------------------------------------
+
+\begin{document}
+\input{parts/frontmatter}
+\input{parts/mainmatter}
+\input{parts/backmatter}
+
+\end{document}

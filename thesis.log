@@ -1,0 +1,2193 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.9.11)  13 SEP 2023 16:09
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**./thesis.tex
+(thesis.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(thesis-Bordeaux-copy.cls
+
+LaTeX Warning: You have requested document class `thesis-Bordeaux-copy',
+               but the document class provides `thesis-Bordeaux'.
+
+Document Class: thesis-Bordeaux 2014/10/15 Thesis of Bordeaux University
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip50
+\RaggedLeftLeftskip=\skip51
+\RaggedRightLeftskip=\skip52
+\CenteringRightskip=\skip53
+\RaggedLeftRightskip=\skip54
+\RaggedRightRightskip=\skip55
+\CenteringParfillskip=\skip56
+\RaggedLeftParfillskip=\skip57
+\RaggedRightParfillskip=\skip58
+\JustifyingParfillskip=\skip59
+\CenteringParindent=\skip60
+\RaggedLeftParindent=\skip61
+\RaggedRightParindent=\skip62
+\JustifyingParindent=\skip63
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count190
+\Gm@cntv=\count191
+\c@Gm@tempcnt=\count192
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip64
+\f@nch@O@elh=\skip65
+\f@nch@O@erh=\skip66
+\f@nch@O@olh=\skip67
+\f@nch@O@orh=\skip68
+\f@nch@O@elf=\skip69
+\f@nch@O@erf=\skip70
+\f@nch@O@olf=\skip71
+\f@nch@O@orf=\skip72
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xargs\xargs.sty
+Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.te
+x
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count193
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\xargs@max=\count194
+\xargs@toksa=\toks21
+\xargs@toksb=\toks22
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/vruler\vruler.sty
+2.3 <24/10/96>
+    VRULER version 2.3 Octorber 1996 By Z Jiang
+    University of New England, Australia
+    Email: zhuhan@neumann.une.edu.au
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/paralist\paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip73
+\plpartopsep=\skip74
+\plitemsep=\skip75
+\plparsep=\skip76
+\pl@lab=\toks40
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/truncate\truncate.sty
+Package: truncate 2001/08/20  ver 3.6
+\@Trunc@RestHyph=\toks41
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/07/31 v3.6n Customizing captions (AR)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen154
+\captionmargin=\dimen155
+\caption@leftmargin=\dimen156
+\caption@rightmargin=\dimen157
+\caption@width=\dimen158
+\caption@indent=\dimen159
+\caption@parindent=\dimen160
+\caption@hangindent=\dimen161
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count271
+\c@continuedfloat=\count272
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box57
+\beforetitleunit=\skip77
+\aftertitleunit=\skip78
+\ttl@plus=\dimen162
+\ttl@minus=\dimen163
+\ttl@toksa=\toks42
+\titlewidth=\dimen164
+\titlewidthlast=\dimen165
+\titlewidthfirst=\dimen166
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
+Package: titletoc 2021/07/05 v2.14 TOC entries
+\ttl@leftsep=\dimen167
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcm
+ds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr
+.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.s
+ty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefi
+nekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape
+.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmac
+ro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gett
+itlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
+ty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count273
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count274
+)
+\@linkdim=\dimen168
+\Hy@linkcounter=\count275
+\Hy@pagecounter=\count276
+ (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count277
+ (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4050.
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count278
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4772.
+\XeTeXLinkMargin=\dimen169
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintca
+lc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count279
+\Field@Width=\dimen170
+\Fld@charsize=\dimen171
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count280
+\c@Item=\count281
+\c@Hfootnote=\count282
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2023-07-08 v7.01b Hyperref driver for XeTeX
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc
+.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box58
+\c@Hy@AnnotLevel=\count283
+\HyField@AnnotCount=\count284
+\Fld@listcount=\count285
+\c@bookmark@seq@number=\count286
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunf
+ilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.st
+y
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqu
+ecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip79
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.sty
+File: lettrine.sty 2023-08-14 v2.52 (Daniel Flipo)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfp\xfp.st
+y (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-08-29 L3 programming layer (loader) 
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-x
+etex.def
+File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
+\g__graphics_track_int=\count287
+\l__pdf_internal_box=\box59
+\g__pdf_backend_object_int=\count288
+\g__pdf_backend_annotation_int=\count289
+\g__pdf_backend_link_int=\count290
+))
+Package: xfp 2023-08-29 L3 Floating point unit
+)
+\c@DefaultLines=\count291
+\c@DefaultDepth=\count292
+\DefaultFindent=\dimen172
+\DefaultNindent=\dimen173
+\DefaultSlope=\dimen174
+\DiscardVskip=\dimen175
+\L@lettrine=\box60
+\L@lbox=\box61
+\L@tbox=\box62
+\c@L@lines=\count293
+\c@L@depth=\count294
+\L@Pindent=\dimen176
+\L@Findent=\dimen177
+\L@Nindent=\dimen178
+\L@lraise=\dimen179
+\L@first=\dimen180
+\L@next=\dimen181
+\L@slope=\dimen182
+\L@height=\dimen183
+\L@novskip=\dimen184
+\L@ruleht=\dimen185
+\L@target@ht=\dimen186
+\L@target@dp=\dimen187
+\L@target@tht=\dimen188
+\LettrineWidth=\dimen189
+\LettrineHeight=\dimen190
+\LettrineDepth=\dimen191
+
+Loading lettrine.cfg
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cfg
+)
+\Llist@everypar=\toks43
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/epigraph\epigraph.sty
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/nextpage\nextpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
+\beforeepigraphskip=\skip80
+\afterepigraphskip=\skip81
+\epigraphwidth=\skip82
+\epigraphrule=\skip83
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip84
+\multirow@cntb=\count295
+\multirow@dima=\skip85
+\bigstrutjot=\dimen192
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.de
+f
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen193
+\Gin@req@width=\dimen194
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count296
+\rotFPtop=\skip86
+\rotFPbot=\skip87
+\rot@float@box=\box63
+\rot@mess@toks=\toks44
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen195
+\ar@mcellbox=\box64
+\extrarowheight=\dimen196
+\NC@list=\toks45
+\extratabsurround=\skip88
+\backup@length=\skip89
+\ar@cellbox=\box65
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box66
+\sift@deathcycles=\count297
+\@vwid@loff=\dimen197
+\@vwid@roff=\dimen198
+)
+\c@taburow=\count298
+\tabu@nbcols=\count299
+\tabu@cnt=\count300
+\tabu@Xcol=\count301
+\tabu@alloc=\count302
+\tabu@nested=\count303
+\tabu@target=\dimen199
+\tabu@spreadtarget=\dimen256
+\tabu@naturalX=\dimen257
+\tabucolX=\dimen258
+\tabu@Xsum=\dimen259
+\extrarowdepth=\dimen260
+\abovetabulinesep=\dimen261
+\belowtabulinesep=\dimen262
+\tabustrutrule=\dimen263
+\tabu@thebody=\toks46
+\tabu@footnotes=\toks47
+\tabu@box=\box67
+\tabu@arstrutbox=\box68
+\tabu@hleads=\box69
+\tabu@vleads=\box70
+\tabu@cellskip=\skip90
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen264
+\c@nlinenum=\count304
+\TeXr@lab=\toks48
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/threeparttablex\three
+parttablex.sty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threep
+arttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box71
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces
+.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks49
+)
+\TPTL@width=\skip91
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count305
+\sf@farskip=\skip92
+\sf@captopadj=\dimen265
+\sf@capskip=\skip93
+\sf@nearskip=\skip94
+\c@subfigure=\count306
+\c@subfigure@save=\count307
+\c@lofdepth=\count308
+\c@subtable=\count309
+\c@subtable@save=\count310
+\c@lotdepth=\count311
+\sf@top=\skip95
+\sf@bottom=\skip96
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen266
+\WF@size=\dimen267
+\c@WF@wrappedlines=\count312
+\WF@box=\box72
+\WF@everypar=\toks50
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/totcount\totcount.sty
+Package: totcount 2011/01/25 v1.2 package for gettingthe total value of LaTeX c
+ounters
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.s
+ty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+ (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count313
+\calc@Bcount=\count314
+\calc@Adimen=\dimen268
+\calc@Bdimen=\dimen269
+\calc@Askip=\skip97
+\calc@Bskip=\skip98
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count315
+\calc@Cskip=\skip99
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip100
+For additional information on amsmath, use the `?' option.
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks51
+\ex@=\dimen270
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen271
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count316
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count317
+\leftroot@=\count318
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count319
+\DOTSCASE@=\count320
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box73
+\strutbox@=\box74
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen272
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count321
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count322
+\dotsspace@=\muskip17
+\c@parentequation=\count323
+\dspbrk@lvl=\count324
+\tag@help=\toks52
+\row@=\count325
+\column@=\count326
+\maxfields@=\count327
+\andhelp@=\toks53
+\eqnshift@=\dimen273
+\alignsep@=\dimen274
+\tagshift@=\dimen275
+\tagwidth@=\dimen276
+\totwidth@=\dimen277
+\lineht@=\dimen278
+\@envbody=\toks54
+\multlinegap=\skip101
+\multlinetaggap=\skip102
+\mathdisplay@stack=\toks55
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\g_MT_multlinerow_int=\count328
+\l_MT_multwidth_dim=\dimen279
+\origjot=\skip103
+\l_MT_shortvdotswithinadjustabove_dim=\dimen280
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen281
+\l_MT_above_intertext_sep=\dimen282
+\l_MT_below_intertext_sep=\dimen283
+\l_MT_above_shortintertext_sep=\dimen284
+\l_MT_below_shortintertext_sep=\dimen285
+\xmathstrut@box=\box75
+\xmathstrut@dim=\dimen286
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2023-09-01 v3.3.6 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count329
+\l__siunitx_number_exponent_fixed_int=\count330
+\l__siunitx_number_min_decimal_int=\count331
+\l__siunitx_number_min_integer_int=\count332
+\l__siunitx_number_round_precision_int=\count333
+\l__siunitx_number_lower_threshold_int=\count334
+\l__siunitx_number_upper_threshold_int=\count335
+\l__siunitx_number_group_first_int=\count336
+\l__siunitx_number_group_size_int=\count337
+\l__siunitx_number_group_minimum_int=\count338
+\l__siunitx_angle_tmp_dim=\dimen287
+\l__siunitx_angle_marker_box=\box76
+\l__siunitx_angle_unit_box=\box77
+\l__siunitx_compound_count_int=\count339
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations\translat
+ions.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_table_tmp_box=\box78
+\l__siunitx_table_tmp_dim=\dimen288
+\l__siunitx_table_column_width_dim=\dimen289
+\l__siunitx_table_integer_box=\box79
+\l__siunitx_table_decimal_box=\box80
+\l__siunitx_table_uncert_box=\box81
+\l__siunitx_table_before_box=\box82
+\l__siunitx_table_after_box=\box83
+\l__siunitx_table_before_dim=\dimen290
+\l__siunitx_table_carry_dim=\dimen291
+\l__siunitx_unit_tmp_int=\count340
+\l__siunitx_unit_position_int=\count341
+\l__siunitx_unit_total_int=\count342
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+\c@totalfigures=\count343
+\c@totaltables=\count344
+Package hyperref Info: Option `colorlinks' set `false' on input line 211.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 211.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 211.
+
+\c@citnum=\count345
+\c@citnum@totc=\count346
+)
+(settings/Commands.tex) (settings/Bib.tex
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count347
+\csq@gtype=\count348
+\csq@glevel=\count349
+\csq@qlevel=\count350
+\csq@maxlvl=\count351
+\csq@tshold=\count352
+\csq@ltx@everypar=\toks56
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count353
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count354
+\c@listtotal=\count355
+\c@listcount=\count356
+\c@liststart=\count357
+\c@liststop=\count358
+\c@citecount=\count359
+\c@citetotal=\count360
+\c@multicitecount=\count361
+\c@multicitetotal=\count362
+\c@instcount=\count363
+\c@maxnames=\count364
+\c@minnames=\count365
+\c@maxitems=\count366
+\c@minitems=\count367
+\c@citecounter=\count368
+\c@maxcitecounter=\count369
+\c@savedcitecounter=\count370
+\c@uniquelist=\count371
+\c@uniquename=\count372
+\c@refsection=\count373
+\c@refsegment=\count374
+\c@maxextratitle=\count375
+\c@maxextratitleyear=\count376
+\c@maxextraname=\count377
+\c@maxextradate=\count378
+\c@maxextraalpha=\count379
+\c@abbrvpenalty=\count380
+\c@highnamepenalty=\count381
+\c@lownamepenalty=\count382
+\c@maxparens=\count383
+\c@parenlevel=\count384
+\blx@tempcnta=\count385
+\blx@tempcntb=\count386
+\blx@tempcntc=\count387
+\c@blx@maxsection=\count388
+\blx@maxsegment@0=\count389
+\blx@notetype=\count390
+\blx@parenlevel@text=\count391
+\blx@parenlevel@foot=\count392
+\blx@sectionciteorder@0=\count393
+\blx@sectionciteorderinternal@0=\count394
+\blx@entrysetcounter=\count395
+\blx@biblioinstance=\count396
+\labelnumberwidth=\skip104
+\labelalphawidth=\skip105
+\biblabelsep=\skip106
+\bibitemsep=\skip107
+\bibnamesep=\skip108
+\bibinitsep=\skip109
+\bibparsep=\skip110
+\bibhang=\skip111
+\blx@bcfin=\read5
+\blx@bcfout=\write3
+\blx@langwohyphens=\language79
+\c@mincomprange=\count397
+\c@maxcomprange=\count398
+\c@mincompwidth=\count399
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'custom-numeric-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count400
+\c@savedafterword=\count401
+\c@annotator=\count402
+\c@savedannotator=\count403
+\c@author=\count404
+\c@savedauthor=\count405
+\c@bookauthor=\count406
+\c@savedbookauthor=\count407
+\c@commentator=\count408
+\c@savedcommentator=\count409
+\c@editor=\count410
+\c@savededitor=\count411
+\c@editora=\count412
+\c@savededitora=\count413
+\c@editorb=\count414
+\c@savededitorb=\count415
+\c@editorc=\count416
+\c@savededitorc=\count417
+\c@foreword=\count418
+\c@savedforeword=\count419
+\c@holder=\count420
+\c@savedholder=\count421
+\c@introduction=\count422
+\c@savedintroduction=\count423
+\c@namea=\count424
+\c@savednamea=\count425
+\c@nameb=\count426
+\c@savednameb=\count427
+\c@namec=\count428
+\c@savednamec=\count429
+\c@translator=\count430
+\c@savedtranslator=\count431
+\c@shortauthor=\count432
+\c@savedshortauthor=\count433
+\c@shorteditor=\count434
+\c@savedshorteditor=\count435
+\c@labelname=\count436
+\c@savedlabelname=\count437
+\c@institution=\count438
+\c@savedinstitution=\count439
+\c@lista=\count440
+\c@savedlista=\count441
+\c@listb=\count442
+\c@savedlistb=\count443
+\c@listc=\count444
+\c@savedlistc=\count445
+\c@listd=\count446
+\c@savedlistd=\count447
+\c@liste=\count448
+\c@savedliste=\count449
+\c@listf=\count450
+\c@savedlistf=\count451
+\c@location=\count452
+\c@savedlocation=\count453
+\c@organization=\count454
+\c@savedorganization=\count455
+\c@origlocation=\count456
+\c@savedoriglocation=\count457
+\c@origpublisher=\count458
+\c@savedorigpublisher=\count459
+\c@publisher=\count460
+\c@savedpublisher=\count461
+\c@language=\count462
+\c@savedlanguage=\count463
+\c@origlanguage=\count464
+\c@savedoriglanguage=\count465
+\c@pageref=\count466
+\c@savedpageref=\count467
+\shorthandwidth=\skip112
+\shortjournalwidth=\skip113
+\shortserieswidth=\skip114
+\shorttitlewidth=\skip115
+\shortauthorwidth=\skip116
+\shorteditorwidth=\skip117
+\locallabelnumberwidth=\skip118
+\locallabelalphawidth=\skip119
+\localshorthandwidth=\skip120
+\localshortjournalwidth=\skip121
+\localshortserieswidth=\skip122
+\localshorttitlewidth=\skip123
+\localshortauthorwidth=\skip124
+\localshorteditorwidth=\skip125
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-unicode.
+def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.d
+ef
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count468
+\c@textcitetotal=\count469
+\c@textcitemaxnames=\count470
+\c@biburlbigbreakpenalty=\count471
+\c@biburlbreakpenalty=\count472
+\c@biburlnumpenalty=\count473
+\c@biburlucpenalty=\count474
+\c@biburllcpenalty=\count475
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count476
+)
+Package biblatex Info: Trying to load bibliography style 'custom-numeric-comp'.
+..
+Package biblatex Info: ... file 'custom-numeric-comp.bbx' found.
+ (custom-numeric-comp.bbx
+File: custom-numeric-comp.bbx 
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-
+comp.bbx
+File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.
+bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard
+.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count477
+\c@bbx:relatedtotal=\count478
+))))
+Package biblatex Info: Trying to load citation style 'custom-numeric-comp'...
+Package biblatex Info: ... file 'custom-numeric-comp.cbx' found.
+ (custom-numeric-comp.cbx
+File: custom-numeric-comp.cbx 
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-
+comp.cbx
+File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count479
+\c@cbx@tempcntb=\count480
+\c@cbx@tempcntc=\count481
+\c@cbx@tempcntd=\count482
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2023-08-29 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-exp
+l3.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpa
+rse.sty
+Package: xparse 2023-08-29 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/imakeidx\imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count483
+\mult@box=\box84
+\multicol@leftmargin=\dimen292
+\c@unbalance=\count484
+\c@collectmore=\count485
+\doublecol@number=\count486
+\multicoltolerance=\count487
+\multicolpretolerance=\count488
+\full@width=\dimen293
+\page@free=\dimen294
+\premulticols=\dimen295
+\postmulticols=\dimen296
+\multicolsep=\skip126
+\multicolbaselineskip=\skip127
+\partial@page=\box85
+\last@line=\box86
+\mc@boxedresult=\box87
+\maxbalancingoverflow=\dimen297
+\mult@rightbox=\box88
+\mult@grightbox=\box89
+\mult@firstbox=\box90
+\mult@gfirstbox=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\c@minrows=\count489
+\c@columnbadness=\count490
+\c@finalcolumnbadness=\count491
+\last@try=\dimen298
+\multicolovershoot=\dimen299
+\multicolundershoot=\dimen300
+\mult@nat@firstbox=\box128
+\colbreak@box=\box129
+\mc@col@check@num=\count492
+))
+\pms@idxfile=\write4
+\openout4 = `pms.idx'.
+
+Writing index file pms.idx
+\cite@idxfile=\write5
+\openout5 = `cite.idx'.
+
+Writing index file cite.idx
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\gloss
+aries.sty
+Package: glossaries 2022/11/03 v4.52 (NLCT)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+Package: mfirstuc 2022/10/14 v2.08 (NLCT)
+\@glsmfirst=\toks57
+\@glsmrest=\toks58
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-bas
+e.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count493
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.
+sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+ (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count494
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count495
+\FP@xia=\count496
+\FP@xib=\count497
+\FP@xfa=\count498
+\FP@xfb=\count499
+\FP@rega=\count500
+\FP@regb=\count501
+\FP@regs=\count502
+\FP@times=\count503
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count504
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks59
+\@dtl@tmpcount=\count505
+\dtl@tmplength=\skip128
+\dtl@sortresult=\count506
+\@dtl@numgrpsepcount=\count507
+\@dtl@datatype=\count508
+\dtl@codeA=\count509
+\dtl@codeB=\count510
+\@dtl@foreach@level=\count511
+)
+\gls@level=\count512
+\@gls@tmpb=\toks60
+\gls@tmplen=\skip129
+\glskeylisttok=\toks61
+\glslabeltok=\toks62
+\glsshorttok=\toks63
+\glslongtok=\toks64
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-hypernav.sty
+Package: glossary-hypernav 2022/11/03 v4.52 (NLCT)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-list.sty
+Package: glossary-list 2022/11/03 v4.52 (NLCT)
+\glslistdottedwidth=\skip130
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-long.sty
+Package: glossary-long 2022/11/03 v4.52 (NLCT)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip131
+\LTright=\skip132
+\LTpre=\skip133
+\LTpost=\skip134
+\LTchunksize=\count513
+\LTcapwidth=\dimen301
+\LT@head=\box130
+\LT@firsthead=\box131
+\LT@foot=\box132
+\LT@lastfoot=\box133
+\LT@gbox=\box134
+\LT@cols=\count514
+\LT@rows=\count515
+\c@LT@tables=\count516
+\c@LT@chunks=\count517
+\LT@p@ftn=\toks65
+)
+\glsdescwidth=\skip135
+\glspagelistwidth=\skip136
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-super.sty
+Package: glossary-super 2022/11/03 v4.52 (NLCT)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertab
+ular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count518
+\ST@wd=\dimen302
+\ST@rightskip=\skip137
+\ST@leftskip=\skip138
+\ST@parfillskip=\skip139
+\ST@pageleft=\dimen303
+\ST@headht=\dimen304
+\ST@tailht=\dimen305
+\ST@pagesofar=\dimen306
+\ST@pboxht=\dimen307
+\ST@lineht=\dimen308
+\ST@prevht=\dimen309
+\ST@toadd=\dimen310
+\ST@dimen=\dimen311
+\ST@pbox=\box135
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-tree.sty
+Package: glossary-tree 2022/11/03 v4.52 (NLCT)
+\glstreeindent=\skip140
+)) (Settings/abbr.tex)
+\glswrite=\write6
+\glo@acronym@file=\write7
+\openout7 = `thesis.acn'.
+
+Package glossaries Info: Writing glossary file thesis.acn on input line 53.
+) (settings/Fonts.tex
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/08/29 v3.93 The Babel package
+\babel@savecnt=\count519
+\U@D=\dimen312
+\l@unhyphenated=\language80
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
+\bbl@readstream=\read6
+\bbl@dirlevel=\count520
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english
+.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french
+.ldf
+Language: french 2023/03/08 v3.5q French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language22). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language22). Reported on input line 92.
+\FB@nonchar=\count521
+Package french.ldf Info: No need for active punctuation characters
+(french.ldf)             with this version of XeTeX!
+(french.ldf)             reported on input line 310.
+\FB@punctthick=\XeTeXcharclass1
+\FB@punctthin=\XeTeXcharclass2
+\FB@punctnul=\XeTeXcharclass3
+\FB@guilo=\XeTeXcharclass4
+\FB@guilf=\XeTeXcharclass5
+\FB@guilnul=\XeTeXcharclass6
+\FBguill@level=\count522
+\FBold@everypar=\toks66
+\FB@Mht=\dimen313
+\mc@charclass=\count523
+\mc@charfam=\count524
+\mc@charslot=\count525
+\std@mcc=\count526
+\dec@mcc=\count527
+\FB@parskip=\dimen314
+\listindentFB=\dimen315
+\descindentFB=\dimen316
+\labelindentFB=\dimen317
+\labelwidthFB=\dimen318
+\leftmarginFB=\dimen319
+\parindentFFN=\dimen320
+\FBfnindent=\dimen321
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\bab
+el-french.tex
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\bab
+el-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/xelatex/mathspec\mathspec.s
+ty
+Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
+r XeLaTeX)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xet
+ex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count528
+\l__fontspec_language_int=\count529
+\l__fontspec_strnum_int=\count530
+\l__fontspec_tmp_int=\count531
+\l__fontspec_tmpa_int=\count532
+\l__fontspec_tmpb_int=\count533
+\l__fontspec_tmpc_int=\count534
+\l__fontspec_em_int=\count535
+\l__fontspec_emdef_int=\count536
+\l__fontspec_strong_int=\count537
+\l__fontspec_strongdef_int=\count538
+\l__fontspec_tmpa_dim=\dimen322
+\l__fontspec_tmpb_dim=\dimen323
+\l__fontspec_tmpc_dim=\dimen324
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg
+)))
+\c@eu@=\count539
+\c@eu@i=\count540
+\c@mkern=\count541
+)
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Ligatures=TeX,Mapping=tex-text,Numbers={Lining,Proporti
+onal}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;+lnum;+pnum;mapping=t
+ex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;+lnum;+pnum;+smcp;map
+ping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+lnum;+pnum;mapping
+=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Times
+(fontspec)             New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+lnum;+pnum;+smcp;m
+apping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+lnum;+pnum;mapping
+=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+lnum;+pnum;+smcp;m
+apping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+lnum;+pnum;mappin
+g=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+lnum;+pnum;+smcp;
+mapping=tex-text;"
+
+
+Package fontspec Info: Font family 'TimesNewRoman(1)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Ligatures=TeX,Numbers={Lining,Proportional}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;+lnum;+pnum;mapping=t
+ex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;+lnum;+pnum;+smcp;map
+ping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+lnum;+pnum;mapping
+=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Times
+(fontspec)             New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+lnum;+pnum;+smcp;m
+apping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+lnum;+pnum;mapping
+=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+lnum;+pnum;+smcp;m
+apping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+lnum;+pnum;mappin
+g=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+lnum;+pnum;+smcp;
+mapping=tex-text;"
+
+\symDigits:m:n=\mathgroup4
+
+Package fontspec Info: Times New Roman scale = 0.9999971570313723.
+
+
+Package fontspec Info: Times New Roman scale = 0.9999971570313723.
+
+
+Package fontspec Info: Times New Roman scale = 0.9999971570313723.
+
+
+Package fontspec Info: Times New Roman/B scale = 0.9796764157853839.
+
+
+Package fontspec Info: Times New Roman/B scale = 0.9796764157853839.
+
+
+Package fontspec Info: Times New Roman/I scale = 1.039724508949025.
+
+
+Package fontspec Info: Times New Roman/I scale = 1.039724508949025.
+
+
+Package fontspec Info: Times New Roman/BI scale = 1.018906948383191.
+
+
+Package fontspec Info: Times New Roman/BI scale = 1.018906948383191.
+
+
+Package fontspec Info: Font family 'TimesNewRoman(2)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Ligatures=TeX,Scale=MatchLowercase].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999971570313723]"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9999971570313723]"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;+smcp;mapping=tex-tex
+t;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9796764157853839]"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.9796764157853839]"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1.039724508949025]"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1.039724508949025]"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.018906948383191]"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1.018906948383191]"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
+text;"
+
+\symLatin:m:n=\mathgroup5
+\symLatin:m:it=\mathgroup6
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 24.
+
+Package fontspec Info: Times New Roman scale = 0.9999971570313723.
+
+\symGreek:m:n=\mathgroup7
+\symGreek:m:it=\mathgroup8
+
+Package fontspec Info: Font family 'TimesNewRoman(3)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;+smcp;mapping=tex-tex
+t;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Times
+(fontspec)             New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
+text;"
+
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  TU/TimesNewRoman(3)/m/n --> TU/TimesNewRoman(3)/bx/n on
+ input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(3)/m/it on input line
+ 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(3)/m/it on input lin
+e 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(3)/bx/n on input line
+ 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(3)/bx/n on input line
+ 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  TU/TimesNewRoman(3)/m/it --> TU/TimesNewRoman(3)/bx/it 
+on input line 26.
+\symOperators:m:n=\mathgroup9
+) (settings/Additions.tex
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l
+3keys2e.sty
+Package: l3keys2e 2023-08-29 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count542
+\l__lipsum_a_int=\count543
+\l__lipsum_b_int=\count544
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex
+)) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 149.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
+x)) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul-ori.sty
+Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+\SOUL@word=\toks67
+\SOUL@lasttoken=\toks68
+\SOUL@syllable=\toks69
+\SOUL@cmds=\toks70
+\SOUL@buffer=\toks71
+\SOUL@token=\toks72
+\SOUL@syllgoal=\dimen325
+\SOUL@syllwidth=\dimen326
+\SOUL@charkern=\dimen327
+\SOUL@hyphkern=\dimen328
+\SOUL@dimen=\dimen329
+\SOUL@dimeni=\dimen330
+\SOUL@minus=\count545
+\SOUL@comma=\count546
+\SOUL@apo=\count547
+\SOUL@grave=\count548
+\SOUL@spaceskip=\skip141
+\SOUL@ttwidth=\dimen331
+\SOUL@uldp=\dimen332
+\SOUL@ulht=\dimen333
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.s
+ty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen334
+\ESO@tempdimb=\dimen335
+)
+\AM@pagewidth=\dimen336
+\AM@pageheight=\dimen337
+\AM@fboxrule=\dimen338
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def
+File: ppxetex.def 2022/12/19 v0.5x Pdfpages driver for XeTeX (AM)
+)
+\pdfpages@includegraphics@status=\count549
+\AM@pagebox=\box136
+\AM@global@opts=\toks73
+\AM@pagecnt=\count550
+\AM@toc@title=\toks74
+\AM@lof@heading=\toks75
+\c@AM@survey=\count551
+\AM@templatesizebox=\box137
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.s
+ty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-n
+ometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+))) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
+x)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count552
+\lst@gtempboxa=\box138
+\lst@token=\toks76
+\lst@length=\count553
+\lst@currlwidth=\dimen339
+\lst@column=\count554
+\lst@pos=\count555
+\lst@lostspace=\dimen340
+\lst@width=\dimen341
+\lst@newlines=\count556
+\lst@lineno=\count557
+\lst@maxwidth=\dimen342
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count558
+\lst@skipnumbers=\count559
+\lst@framebox=\box139
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'french'.
+(thesis.aux (parts/front/Resume.aux))
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(42.67912pt, 745.46222pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=745.46222pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-53.12677pt
+* \headheight=15.0pt
+* \headsep=8.5359pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: french babel package is loaded.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: supertabular package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 29.
+ (thesis.out) (thesis.out)
+\@outlinefile=\write8
+\openout8 = `thesis.out'.
+
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tr
+anslations-basic-dictionary-french.trsl
+File: translations-basic-dictionary-french.trsl (french translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `french'. on input line 29.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tr
+anslations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 29.
+Package biblatex Info: Trying to load language 'french'...
+Package biblatex Info: ... file 'french.lbx' found.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\french.l
+bx
+File: french.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.
+lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout3 = `thesis.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'thesis.bbl' found.
+ (thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 29.
+Package biblatex Info: Reference segment=0 on input line 29.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with paralist package,
+(french.ldf)             reported on input line 29.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with paralist package,
+(french.ldf)             reported on input line 29.
+LaTeX Info: Redefining \up on input line 29.
+\c@lstlisting=\count560
+ (parts/frontmatter.tex (parts/titlepage.tex
+
+Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
+
+
+Package geometry Warning: `mag': not available in `\newgeometry'; skipped.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(17.07182pt, 771.06952pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=771.06952pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-90.115pt
+* \headheight=15.0pt
+* \headsep=19.91684pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: figures/logos/logo-universite.pdf Graphic file (type pdf)
+<use figures/logos/logo-universite.pdf>
+
+Package fontspec Info: Font family 'Arial(0)' created for font 'Arial' with
+(fontspec)             options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Arial/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"Arial/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Arial/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"Arial/B/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Arial/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Arial/I/OT:script=latn;language=dflt;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Arial/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Arial/BI/OT:script=latn;language=dflt;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 42.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 42.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 42.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 10.39719pt on input line 42.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 7.27803pt on input line 42.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 5.1986pt on input line 42.
+[1
+
+\openout6 = `thesis.ist'.
+
+
+
+]
+LaTeX Font Info:    Calculating math sizes for size <16> on input line 42.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 42.
+
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 16.0pt on input line 42.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 11.19995pt on input line 42.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 42.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 16.6355pt on input line 42.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 11.64479pt on input line 42.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 8.31775pt on input line 42.
+[2
+
+]) (parts/front/Dedication.tex [3]) (parts/front/Preface.tex [4
+
+]
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 11.3849pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 6.23831pt on input line 6.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+[6]) (parts/front/Acknowledgments.tex [7
+
+])
+\openout2 = `parts/front/Resume.aux'.
+
+ (parts/front/Resume.tex [8
+
+
+]
+(parts/front/resume/introFr.tex)) [9] [10
+
+
+
+] (thesis.toc
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
+(Font)              scaled to size 12.47662pt on input line 20.
+)
+\tf@toc=\write9
+\openout9 = `thesis.toc'.
+
+ [11] [12
+
+] (thesis.lof
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 20.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 21.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 23.
+
+)
+\tf@lof=\write10
+\openout10 = `thesis.lof'.
+
+ [13] [14
+
+] (thesis.lot)
+\tf@lot=\write11
+\openout11 = `thesis.lot'.
+
+) (parts/mainmatter.tex [15] [16
+
+]
+(parts/main/chapter1.tex
+Chapter 1.
+\c@ttl@toc@chapter=\count561
+(thesis.ptc) [1
+
+]
+Overfull \hbox (28.26385pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][]\TU/TimesNewRoman(1)/m/n/12 , exampl
+e: [][][]
+ []
+
+
+Overfull \hbox (2.25299pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][]
+ []
+
+File: figures/Chapter1/streak-cameraTIKZ.pdf Graphic file (type pdf)
+<use figures/Chapter1/streak-cameraTIKZ.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12> not avai
+lable
+(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
+t line 64.
+[2]
+Overfull \hbox (6.14008pt too wide) in paragraph at lines 71--72
+[]\TU/TimesNewRoman(1)/m/n/12 Using [][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]
+ []
+
+File: figures/Chapter1/RuII-GS-bleaching.pdf Graphic file (type pdf)
+<use figures/Chapter1/RuII-GS-bleaching.pdf>
+File: figures/Chapter1/RuII-anth-3growth.pdf Graphic file (type pdf)
+<use figures/Chapter1/RuII-anth-3growth.pdf>
+[3] (tables/chapter1/table.tex) (tables/chapter1/table2.tex)
+Overfull \hbox (13.98506pt too wide) in paragraph at lines 135--136
+[]\TU/TimesNewRoman(1)/m/n/12 The settings are located in \TU/TimesNewRoman(0)/
+m/it/12 settings/Bib.tex \TU/TimesNewRoman(1)/m/n/12 file. The library itself i
+s stored in \TU/TimesNewRoman(0)/m/it/12 bibliography.thesis-
+ []
+
+[4]
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 155.
+
+[5]) (parts/main/chapter2.tex [6]
+Chapter 2.
+(thesis.ptc) [7
+
+]
+File: figures/Chapter2/molecules.pdf Graphic file (type pdf)
+<use figures/Chapter2/molecules.pdf>
+Package lettrine.sty Info: Targeted height = 20.25977pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 20.25984pt (W);
+(lettrine.sty)             reported on input line 21.
+File: figures/Chapter2/energydistoration.pdf Graphic file (type pdf)
+<use figures/Chapter2/energydistoration.pdf>
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 30.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 34.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 36.
+
+[8]
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 38.
+
+File: figures/Chapter2/cageeffect.pdf Graphic file (type pdf)
+<use figures/Chapter2/cageeffect.pdf>
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 47.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 51.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 51.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 53.
+
+File: figures/Chapter2/Jablonski_cool.pdf Graphic file (type pdf)
+<use figures/Chapter2/Jablonski_cool.pdf>
+File: figures/Chapter2/abs-spec.pdf Graphic file (type pdf)
+<use figures/Chapter2/abs-spec.pdf>
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 57.
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 57--57
+[]\TU/TimesNewRoman(1)/m/n/10.95 Figure 2.5. |The relationship of observed ra-
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 57--57
+\TU/TimesNewRoman(1)/m/n/10.95 diative transitions to potential energy curves
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/Chapter2/RuIandII-emission-77K.pdf Graphic file (type pdf)
+<use figures/Chapter2/RuIandII-emission-77K.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9]
+File: figures/Chapter2/PET-Foldamers.pdf Graphic file (type pdf)
+<use figures/Chapter2/PET-Foldamers.pdf>
+
+Overfull \hbox (50.44994pt too wide) in paragraph at lines 96--96
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+(parts/main/article.tex [11]
+File: article.pdf Graphic file (type pdf)
+<use article.pdf>
+File: article.pdf Graphic file (type pdf)
+<use article.pdf>
+File: article.pdf Graphic file (type pdf)
+<use article.pdf, page 1>
+File: article.pdf Graphic file (type pdf)
+<use article.pdf, page 1>
+File: article.pdf Graphic file (type pdf)
+<use article.pdf, page 1>
+File: article.pdf Graphic file (type pdf)
+<use article.pdf, page 1>
+File: article.pdf Graphic file (type pdf)
+<use article.pdf, page 1>
+ [12]
+File: article.pdf Graphic file (type pdf)
+<use article.pdf, page 2>
+File: article.pdf Graphic file (type pdf)
+<use article.pdf, page 2>
+File: article.pdf Graphic file (type pdf)
+<use article.pdf, page 2>
+ [13]
+File: article.pdf Graphic file (type pdf)
+<use article.pdf, page 3>
+File: article.pdf Graphic file (type pdf)
+<use article.pdf, page 3>
+File: article.pdf Graphic file (type pdf)
+<use article.pdf, page 3>
+ [14])) (parts/Appendixes.tex
+Appendix A.
+)) (parts/backmatter.tex [15
+
+] [16
+
+]
+
+Package biblatex Warning: Name format 'last-first' deprecated.
+(biblatex)                Please use 'family-given' instead.
+(biblatex)                Using 'family-given' now.
+
+runsystem(makeindex cite.idx)...executed safely (allowed).
+
+(cite.ind [17
+
+] [18
+
+]) (thesis.acr [19] [20
+
+]))
+
+Package caption Warning: Unused \captionsetup[subfigure] on input line 415.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[subtable] on input line 417.
+See the caption package documentation for explanation.
+
+\tf@ptc=\write12
+\openout12 = `thesis.ptc'.
+
+[21
+
+] (thesis.aux (parts/front/Resume.aux))
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: CD9371DC5053FE145378945741F4BEA3;4125.
+Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 40430 strings out of 410379
+ 804587 string characters out of 5787645
+ 2069432 words of memory out of 5000000
+ 61081 multiletter control sequences out of 15000+600000
+ 566415 words of font info for 140 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 96i,17n,131p,2279b,6843s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on thesis.pdf (37 pages).

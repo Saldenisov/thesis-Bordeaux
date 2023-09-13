@@ -1,0 +1,1463 @@
+13 Sep 2023 16:09:31.457 INFO  - 
+Welcome to arara 7.1.0!
+-----------------------------------------------------------------
+13 Sep 2023 16:09:31.457 DEBUG - 
+::: arara @ C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara
+::: Java 1.8.0_202, Oracle Corporation
+::: C:\Program Files\Java\jdk1.8.0_202\jre
+::: Windows 10, amd64, 10.0
+::: user.home @ C:\Users\denisov
+::: CF @ [none]
+-----------------------------------------------------------------
+13 Sep 2023 16:09:31.473 INFO  - Processing "thesis.tex" (size: 1.6 kB, last modified: 2021-09-08 14:26:17), please wait.
+13 Sep 2023 16:09:31.473 INFO  - I found a potential pattern in line 1: xelatex: { shell: yes }
+13 Sep 2023 16:09:31.473 INFO  - I found a potential pattern in line 2: biber
+13 Sep 2023 16:09:31.473 INFO  - I found a potential pattern in line 3: makeglossaries
+13 Sep 2023 16:09:31.473 INFO  - I found a potential pattern in line 4: xelatex: { shell: yes }
+13 Sep 2023 16:09:31.473 INFO  - I found a potential pattern in line 5: xelatex: { synctex: true, shell: yes }
+13 Sep 2023 16:09:31.677 INFO  -                     All directives were validated. We are good to go.
+                    -------------------------- DIRECTIVES ---------------------------
+                    Directive(identifier='xelatex', parameters={shell=yes, reference=C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class\thesis.tex},conditional={ NONE }, lineNumbers=[1])
+Directive(identifier='biber', parameters={reference=C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class\thesis.tex},conditional={ NONE }, lineNumbers=[2])
+Directive(identifier='makeglossaries', parameters={reference=C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class\thesis.tex},conditional={ NONE }, lineNumbers=[3])
+Directive(identifier='xelatex', parameters={shell=yes, reference=C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class\thesis.tex},conditional={ NONE }, lineNumbers=[4])
+Directive(identifier='xelatex', parameters={synctex=true, shell=yes, reference=C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class\thesis.tex},conditional={ NONE }, lineNumbers=[5])
+                    -----------------------------------------------------------------
+13 Sep 2023 16:09:31.677 INFO  - I am ready to interpret rule "xelatex".
+13 Sep 2023 16:09:31.693 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
+13 Sep 2023 16:09:31.773 INFO  - I am ready to interpret task "XeLaTeX engine" from rule "XeLaTeX".
+13 Sep 2023 16:09:31.773 INFO  - System command: [xelatex, --shell-escape, thesis.tex] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
+13 Sep 2023 16:09:35.779 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+(thesis.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(thesis-Bordeaux-copy.cls
+
+LaTeX Warning: You have requested document class `thesis-Bordeaux-copy',
+               but the document class provides `thesis-Bordeaux'.
+
+Document Class: thesis-Bordeaux 2014/10/15 Thesis of Bordeaux University
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xargs\xargs.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.te
+x))))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/vruler\vruler.sty
+2.3 <24/10/96>)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/paralist\paralist.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/truncate\truncate.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcm
+ds.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr
+.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.s
+ty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefi
+nekeys.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape
+.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmac
+ro.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gett
+itlestring.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
+ty)))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintca
+lc.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc
+.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunf
+ilecheck.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.st
+y)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqu
+ecounter.sty)))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfp\xfp.st
+y (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-x
+etex.def)))
+Loading lettrine.cfg
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cfg
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/epigraph\epigraph.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/nextpage\nextpage.sty
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+.cfg)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.de
+f))) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty)
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/threeparttablex\three
+parttablex.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threep
+arttable.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces
+.sty)))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/totcount\totcount.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.s
+ty (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty)))
+ (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations\translat
+ions.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty))
+(settings/Commands.tex) (settings/Bib.tex
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-unicode.
+def)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.d
+ef)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+) (custom-numeric-comp.bbx
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-
+comp.bbx
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.
+bbx
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard
+.bbx)))) (custom-numeric-comp.cbx
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-
+comp.cbx))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-exp
+l3.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpa
+rse.sty)))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/imakeidx\imakeidx.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty)
+ (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty))
+Writing index file pms.idx
+Writing index file cite.idx
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\gloss
+aries.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-bas
+e.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.
+sty (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty))))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-hypernav.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-list.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-long.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty))
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-super.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertab
+ular.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-tree.sty)) (Settings/abbr.tex)) (settings/Fonts.tex
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english
+.ldf)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french
+.ldf))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\bab
+el-french.tex)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\bab
+el-english.tex)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/xelatex/mathspec\mathspec.s
+ty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xet
+ex.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg
+))))) (settings/Additions.tex
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l
+3keys2e.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex
+)) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
+x)) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul-ori.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.s
+ty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.s
+ty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-n
+ometadata.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty))
+)) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
+x))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty)
+(thesis.aux (parts/front/Resume.aux))
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+) (thesis.out) (thesis.out)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tr
+anslations-basic-dictionary-french.trsl)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tr
+anslations-basic-dictionary-english.trsl)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\french.l
+bx)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.
+lbx) (thesis.bbl) (parts/frontmatter.tex (parts/titlepage.tex
+
+Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
+
+
+Package geometry Warning: `mag': not available in `\newgeometry'; skipped.
+
+[1]
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 42.
+
+[2]) (parts/front/Dedication.tex [3]) (parts/front/Preface.tex [4]
+Underfull \vbox (badness 10000) has occurred while \output is active [5]
+[6]) (parts/front/Acknowledgments.tex [7]) (parts/front/Resume.tex [8]
+(parts/front/resume/introFr.tex)) [9] [10] (thesis.toc) [11] [12] (thesis.lof
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 20.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 21.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 23.
+
+) [13] [14] (thesis.lot)) (parts/mainmatter.tex [15] [16]
+(parts/main/chapter1.tex
+Chapter 1.
+(thesis.ptc) [1]
+Overfull \hbox (28.26385pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][]\TU/TimesNewRoman(1)/m/n/12 , exampl
+e: [][][]
+
+Overfull \hbox (2.25299pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2]
+Overfull \hbox (6.14008pt too wide) in paragraph at lines 71--72
+[]\TU/TimesNewRoman(1)/m/n/12 Using [][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]
+[3] (tables/chapter1/table.tex) (tables/chapter1/table2.tex)
+Overfull \hbox (13.98506pt too wide) in paragraph at lines 135--136
+[]\TU/TimesNewRoman(1)/m/n/12 The settings are located in \TU/TimesNewRoman(0)/
+m/it/12 settings/Bib.tex \TU/TimesNewRoman(1)/m/n/12 file. The library itself i
+s stored in \TU/TimesNewRoman(0)/m/it/12 bibliography.thesis-
+[4]
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 155.
+
+[5]) (parts/main/chapter2.tex [6]
+Chapter 2.
+(thesis.ptc) [7]
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 30.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 34.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 36.
+
+[8]
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 38.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 47.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 51.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 51.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 53.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 57.
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 57--57
+[]\TU/TimesNewRoman(1)/m/n/10.95 Figure 2.5. |The relationship of observed ra-
+
+Underfull \hbox (badness 7558) in paragraph at lines 57--57
+\TU/TimesNewRoman(1)/m/n/10.95 diative transitions to potential energy curves
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9]
+Overfull \hbox (50.44994pt too wide) in paragraph at lines 96--96
+ [][] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active [10]
+(parts/main/article.tex [11] [12] [13] [14])) (parts/Appendixes.tex
+Appendix A.
+)) (parts/backmatter.tex [15] [16]This is makeindex, version 2.16 [MiKTeX 23.5].
+Scanning input file cite.idx....done (17 entries accepted, 0 rejected).
+Sorting entries....done (70 comparisons).
+Generating output file cite.ind....done (30 lines written, 0 warnings).
+Output written in cite.ind.
+Transcript written in cite.ilg.
+
+
+Package biblatex Warning: Name format 'last-first' deprecated.
+(biblatex)                Please use 'family-given' instead.
+(biblatex)                Using 'family-given' now.
+
+(cite.ind [17] [18])
+No file thesis.acr.
+)
+
+Package caption Warning: Unused \captionsetup[subfigure] on input line 415.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[subtable] on input line 417.
+See the caption package documentation for explanation.
+
+[19] (thesis.aux (parts/front/Resume.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+ )
+(see the transcript file for additional information)
+Output written on thesis.pdf (35 pages).
+Transcript written on thesis.log.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+13 Sep 2023 16:09:35.779 INFO  - Task result: SUCCESS
+13 Sep 2023 16:09:35.779 INFO  - I am ready to interpret rule "biber".
+13 Sep 2023 16:09:35.779 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
+13 Sep 2023 16:09:35.779 INFO  - I am ready to interpret task "The Biber reference management software" from rule "Biber".
+13 Sep 2023 16:09:35.795 INFO  - System command: [biber, thesis] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
+13 Sep 2023 16:09:37.448 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                INFO - This is Biber 2.19
+INFO - Logfile is 'thesis.blg'
+INFO - Reading 'thesis.bcf'
+INFO - Found 4 citekeys in bib section 0
+INFO - Processing section 0
+INFO - Looking for bibtex file 'bibliography/thesis-bib.bib' for section 0
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'bibliography/thesis-bib.bib'
+INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'fr-FR'
+INFO - No sort tailoring available for locale 'fr-FR'
+INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+INFO - Output to thesis.bbl
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+13 Sep 2023 16:09:37.448 INFO  - Task result: SUCCESS
+13 Sep 2023 16:09:37.448 INFO  - I am ready to interpret rule "makeglossaries".
+13 Sep 2023 16:09:37.448 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
+13 Sep 2023 16:09:37.448 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
+13 Sep 2023 16:09:37.448 INFO  - System command: [makeglossaries, thesis] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
+13 Sep 2023 16:09:38.014 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                makeglossaries version 4.51 (2022-11-02)
+added glossary type 'acronym' (alg,acr,acn)
+makeindex  -s "thesis.ist" -t "thesis.alg" -o "thesis.acr" "thesis.acn"
+This is makeindex, version 2.16 [MiKTeX 23.5].
+Scanning style file ./thesis.ist...........................done (27 attributes redefined, 0 ignored).
+Scanning input file thesis.acn....done (16 entries accepted, 0 rejected).
+Sorting entries....done (66 comparisons).
+Generating output file thesis.acr....done (25 lines written, 0 warnings).
+Output written in thesis.acr.
+Transcript written in thesis.alg.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+13 Sep 2023 16:09:38.014 INFO  - Task result: SUCCESS
+13 Sep 2023 16:09:38.014 INFO  - I am ready to interpret rule "xelatex".
+13 Sep 2023 16:09:38.030 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
+13 Sep 2023 16:09:38.030 INFO  - I am ready to interpret task "XeLaTeX engine" from rule "XeLaTeX".
+13 Sep 2023 16:09:38.030 INFO  - System command: [xelatex, --shell-escape, thesis.tex] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
+13 Sep 2023 16:09:41.995 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+(thesis.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(thesis-Bordeaux-copy.cls
+
+LaTeX Warning: You have requested document class `thesis-Bordeaux-copy',
+               but the document class provides `thesis-Bordeaux'.
+
+Document Class: thesis-Bordeaux 2014/10/15 Thesis of Bordeaux University
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xargs\xargs.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.te
+x))))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/vruler\vruler.sty
+2.3 <24/10/96>)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/paralist\paralist.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/truncate\truncate.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcm
+ds.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr
+.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.s
+ty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefi
+nekeys.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape
+.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmac
+ro.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gett
+itlestring.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
+ty)))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintca
+lc.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc
+.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunf
+ilecheck.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.st
+y)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqu
+ecounter.sty)))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfp\xfp.st
+y (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-x
+etex.def)))
+Loading lettrine.cfg
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cfg
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/epigraph\epigraph.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/nextpage\nextpage.sty
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+.cfg)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.de
+f))) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty)
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/threeparttablex\three
+parttablex.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threep
+arttable.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces
+.sty)))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/totcount\totcount.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.s
+ty (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty)))
+ (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations\translat
+ions.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty))
+(settings/Commands.tex) (settings/Bib.tex
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-unicode.
+def)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.d
+ef)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+) (custom-numeric-comp.bbx
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-
+comp.bbx
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.
+bbx
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard
+.bbx)))) (custom-numeric-comp.cbx
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-
+comp.cbx))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-exp
+l3.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpa
+rse.sty)))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/imakeidx\imakeidx.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty)
+ (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty))
+Writing index file pms.idx
+Writing index file cite.idx
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\gloss
+aries.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-bas
+e.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.
+sty (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty))))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-hypernav.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-list.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-long.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty))
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-super.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertab
+ular.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-tree.sty)) (Settings/abbr.tex)) (settings/Fonts.tex
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english
+.ldf)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french
+.ldf))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\bab
+el-french.tex)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\bab
+el-english.tex)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/xelatex/mathspec\mathspec.s
+ty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xet
+ex.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg
+))))) (settings/Additions.tex
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l
+3keys2e.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex
+)) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
+x)) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul-ori.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.s
+ty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.s
+ty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-n
+ometadata.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty))
+)) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
+x))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty)
+(thesis.aux (parts/front/Resume.aux))
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+) (thesis.out) (thesis.out)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tr
+anslations-basic-dictionary-french.trsl)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tr
+anslations-basic-dictionary-english.trsl)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\french.l
+bx)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.
+lbx) (thesis.bbl) (parts/frontmatter.tex (parts/titlepage.tex
+
+Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
+
+
+Package geometry Warning: `mag': not available in `\newgeometry'; skipped.
+
+[1]
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 42.
+
+[2]) (parts/front/Dedication.tex [3]) (parts/front/Preface.tex [4]
+Underfull \vbox (badness 10000) has occurred while \output is active [5]
+[6]) (parts/front/Acknowledgments.tex [7]) (parts/front/Resume.tex [8]
+(parts/front/resume/introFr.tex)) [9] [10] (thesis.toc) [11] [12] (thesis.lof
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 20.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 21.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 23.
+
+) [13] [14] (thesis.lot)) (parts/mainmatter.tex [15] [16]
+(parts/main/chapter1.tex
+Chapter 1.
+(thesis.ptc) [1]
+Overfull \hbox (28.26385pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][]\TU/TimesNewRoman(1)/m/n/12 , exampl
+e: [][][]
+
+Overfull \hbox (2.25299pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2]
+Overfull \hbox (6.14008pt too wide) in paragraph at lines 71--72
+[]\TU/TimesNewRoman(1)/m/n/12 Using [][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]
+[3] (tables/chapter1/table.tex) (tables/chapter1/table2.tex)
+Overfull \hbox (13.98506pt too wide) in paragraph at lines 135--136
+[]\TU/TimesNewRoman(1)/m/n/12 The settings are located in \TU/TimesNewRoman(0)/
+m/it/12 settings/Bib.tex \TU/TimesNewRoman(1)/m/n/12 file. The library itself i
+s stored in \TU/TimesNewRoman(0)/m/it/12 bibliography.thesis-
+[4]
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 155.
+
+[5]) (parts/main/chapter2.tex [6]
+Chapter 2.
+(thesis.ptc) [7]
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 30.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 34.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 36.
+
+[8]
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 38.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 47.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 51.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 51.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 53.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 57.
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 57--57
+[]\TU/TimesNewRoman(1)/m/n/10.95 Figure 2.5. |The relationship of observed ra-
+
+Underfull \hbox (badness 7558) in paragraph at lines 57--57
+\TU/TimesNewRoman(1)/m/n/10.95 diative transitions to potential energy curves
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9]
+Overfull \hbox (50.44994pt too wide) in paragraph at lines 96--96
+ [][] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active [10]
+(parts/main/article.tex [11] [12] [13] [14])) (parts/Appendixes.tex
+Appendix A.
+)) (parts/backmatter.tex [15] [16]This is makeindex, version 2.16 [MiKTeX 23.5].
+Scanning input file cite.idx....done (17 entries accepted, 0 rejected).
+Sorting entries....done (70 comparisons).
+Generating output file cite.ind....done (30 lines written, 0 warnings).
+Output written in cite.ind.
+Transcript written in cite.ilg.
+
+
+Package biblatex Warning: Name format 'last-first' deprecated.
+(biblatex)                Please use 'family-given' instead.
+(biblatex)                Using 'family-given' now.
+
+(cite.ind [17] [18]) (thesis.acr [19] [20]))
+
+Package caption Warning: Unused \captionsetup[subfigure] on input line 415.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[subtable] on input line 417.
+See the caption package documentation for explanation.
+
+[21] (thesis.aux (parts/front/Resume.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)
+Output written on thesis.pdf (37 pages).
+Transcript written on thesis.log.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+13 Sep 2023 16:09:41.995 INFO  - Task result: SUCCESS
+13 Sep 2023 16:09:41.995 INFO  - I am ready to interpret rule "xelatex".
+13 Sep 2023 16:09:41.997 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
+13 Sep 2023 16:09:42.002 INFO  - I am ready to interpret task "XeLaTeX engine" from rule "XeLaTeX".
+13 Sep 2023 16:09:42.002 INFO  - System command: [xelatex, --shell-escape, --synctex=1, thesis.tex] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
+13 Sep 2023 16:09:45.876 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+(thesis.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(thesis-Bordeaux-copy.cls
+
+LaTeX Warning: You have requested document class `thesis-Bordeaux-copy',
+               but the document class provides `thesis-Bordeaux'.
+
+Document Class: thesis-Bordeaux 2014/10/15 Thesis of Bordeaux University
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xargs\xargs.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.te
+x))))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/vruler\vruler.sty
+2.3 <24/10/96>)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/paralist\paralist.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/truncate\truncate.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcm
+ds.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr
+.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.s
+ty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefi
+nekeys.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape
+.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmac
+ro.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gett
+itlestring.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
+ty)))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintca
+lc.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc
+.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunf
+ilecheck.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.st
+y)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqu
+ecounter.sty)))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfp\xfp.st
+y (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-x
+etex.def)))
+Loading lettrine.cfg
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cfg
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/epigraph\epigraph.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/nextpage\nextpage.sty
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+.cfg)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.de
+f))) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty)
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/threeparttablex\three
+parttablex.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threep
+arttable.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces
+.sty)))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/totcount\totcount.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.s
+ty (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty)))
+ (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations\translat
+ions.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty))
+(settings/Commands.tex) (settings/Bib.tex
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-unicode.
+def)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.d
+ef)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+) (custom-numeric-comp.bbx
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-
+comp.bbx
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.
+bbx
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard
+.bbx)))) (custom-numeric-comp.cbx
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-
+comp.cbx))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-exp
+l3.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpa
+rse.sty)))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/imakeidx\imakeidx.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty)
+ (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty))
+Writing index file pms.idx
+Writing index file cite.idx
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\gloss
+aries.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-bas
+e.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.
+sty (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty))))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-hypernav.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-list.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-long.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty))
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-super.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertab
+ular.sty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-tree.sty)) (Settings/abbr.tex)) (settings/Fonts.tex
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english
+.ldf)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french
+.ldf))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\bab
+el-french.tex)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\bab
+el-english.tex)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/xelatex/mathspec\mathspec.s
+ty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xet
+ex.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg
+))))) (settings/Additions.tex
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l
+3keys2e.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex
+)) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
+x)) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul-ori.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.s
+ty))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def)
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.s
+ty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-n
+ometadata.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty))
+)) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
+x))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty)
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty)
+(thesis.aux (parts/front/Resume.aux))
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+) (thesis.out) (thesis.out)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tr
+anslations-basic-dictionary-french.trsl)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tr
+anslations-basic-dictionary-english.trsl)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\french.l
+bx)
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.
+lbx) (thesis.bbl) (parts/frontmatter.tex (parts/titlepage.tex
+
+Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
+
+
+Package geometry Warning: `mag': not available in `\newgeometry'; skipped.
+
+[1]
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 42.
+
+[2]) (parts/front/Dedication.tex [3]) (parts/front/Preface.tex [4]
+Underfull \vbox (badness 10000) has occurred while \output is active [5]
+[6]) (parts/front/Acknowledgments.tex [7]) (parts/front/Resume.tex [8]
+(parts/front/resume/introFr.tex)) [9] [10] (thesis.toc) [11] [12] (thesis.lof
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 20.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 21.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 23.
+
+) [13] [14] (thesis.lot)) (parts/mainmatter.tex [15] [16]
+(parts/main/chapter1.tex
+Chapter 1.
+(thesis.ptc) [1]
+Overfull \hbox (28.26385pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][]\TU/TimesNewRoman(1)/m/n/12 , exampl
+e: [][][]
+
+Overfull \hbox (2.25299pt too wide) in paragraph at lines 60--61
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2]
+Overfull \hbox (6.14008pt too wide) in paragraph at lines 71--72
+[]\TU/TimesNewRoman(1)/m/n/12 Using [][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]
+[3] (tables/chapter1/table.tex) (tables/chapter1/table2.tex)
+Overfull \hbox (13.98506pt too wide) in paragraph at lines 135--136
+[]\TU/TimesNewRoman(1)/m/n/12 The settings are located in \TU/TimesNewRoman(0)/
+m/it/12 settings/Bib.tex \TU/TimesNewRoman(1)/m/n/12 file. The library itself i
+s stored in \TU/TimesNewRoman(0)/m/it/12 bibliography.thesis-
+[4]
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 155.
+
+[5]) (parts/main/chapter2.tex [6]
+Chapter 2.
+(thesis.ptc) [7]
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 30.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 34.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 36.
+
+[8]
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 38.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 47.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 51.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 51.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 53.
+
+
+Package imakeidx Warning: Undefined index file `thesis' on input line 57.
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 57--57
+[]\TU/TimesNewRoman(1)/m/n/10.95 Figure 2.5. |The relationship of observed ra-
+
+Underfull \hbox (badness 7558) in paragraph at lines 57--57
+\TU/TimesNewRoman(1)/m/n/10.95 diative transitions to potential energy curves
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9]
+Overfull \hbox (50.44994pt too wide) in paragraph at lines 96--96
+ [][] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active [10]
+(parts/main/article.tex [11] [12] [13] [14])) (parts/Appendixes.tex
+Appendix A.
+)) (parts/backmatter.tex [15] [16]This is makeindex, version 2.16 [MiKTeX 23.5].
+Scanning input file cite.idx....done (17 entries accepted, 0 rejected).
+Sorting entries....done (70 comparisons).
+Generating output file cite.ind....done (30 lines written, 0 warnings).
+Output written in cite.ind.
+Transcript written in cite.ilg.
+
+
+Package biblatex Warning: Name format 'last-first' deprecated.
+(biblatex)                Please use 'family-given' instead.
+(biblatex)                Using 'family-given' now.
+
+(cite.ind [17] [18]) (thesis.acr [19] [20]))
+
+Package caption Warning: Unused \captionsetup[subfigure] on input line 415.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[subtable] on input line 417.
+See the caption package documentation for explanation.
+
+[21] (thesis.aux (parts/front/Resume.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+ )
+(see the transcript file for additional information)
+Output written on thesis.pdf (37 pages).
+SyncTeX written on thesis.synctex.gz.
+Transcript written on thesis.log.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+13 Sep 2023 16:09:45.876 INFO  - Task result: SUCCESS
+13 Sep 2023 16:09:45.876 INFO  - Total: 14.530 seconds

@@ -1,0 +1,53 @@
+\usepackage{csquotes}
+\usepackage[backend=biber,bibencoding=utf8, indexing=cite, style=custom-numeric-comp, sorting=none,maxbibnames=99]{biblatex}
+%backref=false,
+%backrefstyle=three
+\addbibresource{bibliography/thesis-bib.bib}
+
+
+\DefineBibliographyStrings{english}{%
+    backrefpage  = {see \lowercase{p}.}, % for single page number
+    backrefpages = {see \lowercase{p}p.} % for multiple page numbers
+}
+
+\DeclareNameAlias{sortname}{last-first}
+\DeclareNameAlias{default}{last-first}
+
+%\AtBeginBibliography{\renewcommand*{\mkbibnamelast}[1]{\MakeUppercase{#1}}}
+
+%\DeclareFieldFormat{volume}{\def\tmp##1##2{\ifinteger{##1}{\bibstring{volume}\addspace##1##2}{##1##2}}\expandafter\tmp#1}
+%\DefineBibliographyStrings{english}{%
+%	number = {\lowercase{v}ol\adddot}, % avoid capitalization after dots.
+%	issue  = {\lowercase{i}ss\adddot}, % avoid capitalization after dots.
+%}
+
+\DeclareFieldFormat
+[article]
+{journaltitle}{\textit{#1}}
+\DeclareFieldFormat
+[article]
+{volume}{#1}
+
+
+\usepackage{imakeidx}
+\makeindex[intoc,name=pms,title=General,columns=2]
+\makeindex[intoc,name=cite,title=Author Index,columns=2]
+\indexsetup{level=\chapter*,toclevel=chapter,noclearpage}
+
+%Include authors from bibliography to author index.
+\DeclareIndexNameFormat{default}{%
+	\nameparts{#1}%
+	\usebibmacro{index:name}
+	{\index[cite]}
+	{\namepartfamily}
+	{\namepartgiven}
+	{\namepartprefix}
+	{\namepartsuffix}}
+
+%\DeclareIndexNameFormat{nondefault}{%
+%\usebibmacro{index:name}{\nocite[cite]}{#1}{#3}{#5}{#7}}  
+
+%Glossaries
+\usepackage[nonumberlist,acronym,toc,nomain,nopostdot,nogroupskip]{glossaries}
+\input{Settings/abbr}
+\makeglossaries

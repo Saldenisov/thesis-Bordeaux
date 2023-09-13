@@ -1,0 +1,23 @@
+% !TeX spellcheck = fr_FR
+
+% Extened abstract in french for english written manuscripts.s
+\chapter*{Résumé en français}
+\selectlanguage{french}
+\frenchspacing
+\renewcommand\thefigure{\Roman{figure}} 
+\renewcommand\thetable{\Roman{table}}  
+
+\addcontentsline{toc}{chapter}{Résumé}
+
+\input{parts/front/resume/introFr}
+
+
+%etc.....
+
+%\input{parts/front/resume/someother-section}
+
+\renewcommand\thefigure{\thechapter.\arabic{figure}}
+\renewcommand\thetable{\thechapter.\arabic{table}}
+
+\nonfrenchspacing
+\selectlanguage{english}
