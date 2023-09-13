@@ -1,5 +1,5 @@
-# thesis-Bordeaux
-Ph.D. thesis template (LaTeX) with respect to University of Bordeaux rules
+# Bordeaux University Ph.D. Thesis Template
+Ph.D. thesis template (LaTeX) with respect to the University of Bordeaux rules
 
 
 This thesis template was done in 2013-2015 according to the rules of Université de Bordeaux. It can be compiled with two different chains:
