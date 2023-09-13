@@ -7,4 +7,4 @@ xelatex -- beamer -- makeglossaries -- xelatex -- xelatex
 lualatex -- beamer -- makeglossaries -- lualatex -- lualatex
 
 
-I, as the author recommend using \textbf{MiKTeX} or \textbf{TeX Live} as a \LaTeX distribution, and in my opinion best editors for general purposes are TeXStudio or TeXMaker.
+I, as the author recommend using MiKTeX or TeX Live as a \LaTeX distribution, and in my opinion best editors for general purposes are TeXStudio or TeXMaker.
