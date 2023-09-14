@@ -54,7 +54,7 @@ You will find some crazy examples, such as **molecules.tex** file in \figures\Ch
 
 ## Some page examples
 
-![The front page](https://github.com/Saldenisov/thesis-Bordeaux/blob/main/images_md/thesis_page-0001.jpg | width=200)
+![The front page](https://github.com/Saldenisov/thesis-Bordeaux/blob/main/images_md/thesis_page-0001.jpg)
 
 ![Page of contents](https://github.com/Saldenisov/thesis-Bordeaux/blob/main/images_md/thesis_page-0011.jpg)
 
