@@ -1,4 +1,5 @@
 # Bordeaux University Ph.D. Thesis Template
+(Modèle de thèse de doctorat de l'Université de Bordeaux)
 ## General information
 
 This thesis template was done in 2013-2015 according to the rules of Université de Bordeaux and it is based on my Ph.D. [thesis](https://theses.hal.science/tel-01241762). The template can be compiled with two different chains:
