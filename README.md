@@ -1,8 +1,7 @@
 # Bordeaux University Ph.D. Thesis Template
 ## General information
-This is a Ph.D. thesis template (LaTeX) with respect to the University of Bordeaux rules
 
-This thesis template was done in 2013-2015 according to the rules of Université de Bordeaux for based on Ph.D. [thesis](https://theses.hal.science/tel-01241762). The template can be compiled with two different chains:
+This thesis template was done in 2013-2015 according to the rules of Université de Bordeaux and it is based on my Ph.D. [thesis](https://theses.hal.science/tel-01241762). The template can be compiled with two different chains:
  - xelatex -- beamer -- makeglossaries -- xelatex -- xelatex
  - lualatex -- beamer -- makeglossaries -- lualatex -- lualatex
 
