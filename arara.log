@@ -1,7 +1,7 @@
-13 Sep 2023 16:09:31.457 INFO  - 
+14 Sep 2023 10:02:16.326 INFO  - 
 Welcome to arara 7.1.0!
 -----------------------------------------------------------------
-13 Sep 2023 16:09:31.457 DEBUG - 
+14 Sep 2023 10:02:16.328 DEBUG - 
 ::: arara @ C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara
 ::: Java 1.8.0_202, Oracle Corporation
 ::: C:\Program Files\Java\jdk1.8.0_202\jre
@@ -9,13 +9,13 @@ Welcome to arara 7.1.0!
 ::: user.home @ C:\Users\denisov
 ::: CF @ [none]
 -----------------------------------------------------------------
-13 Sep 2023 16:09:31.473 INFO  - Processing "thesis.tex" (size: 1.6 kB, last modified: 2021-09-08 14:26:17), please wait.
-13 Sep 2023 16:09:31.473 INFO  - I found a potential pattern in line 1: xelatex: { shell: yes }
-13 Sep 2023 16:09:31.473 INFO  - I found a potential pattern in line 2: biber
-13 Sep 2023 16:09:31.473 INFO  - I found a potential pattern in line 3: makeglossaries
-13 Sep 2023 16:09:31.473 INFO  - I found a potential pattern in line 4: xelatex: { shell: yes }
-13 Sep 2023 16:09:31.473 INFO  - I found a potential pattern in line 5: xelatex: { synctex: true, shell: yes }
-13 Sep 2023 16:09:31.677 INFO  -                     All directives were validated. We are good to go.
+14 Sep 2023 10:02:16.335 INFO  - Processing "thesis.tex" (size: 1.6 kB, last modified: 2023-09-14 08:01:44), please wait.
+14 Sep 2023 10:02:16.342 INFO  - I found a potential pattern in line 1: xelatex: { shell: yes }
+14 Sep 2023 10:02:16.342 INFO  - I found a potential pattern in line 2: biber
+14 Sep 2023 10:02:16.342 INFO  - I found a potential pattern in line 3: makeglossaries
+14 Sep 2023 10:02:16.342 INFO  - I found a potential pattern in line 4: xelatex: { shell: yes }
+14 Sep 2023 10:02:16.342 INFO  - I found a potential pattern in line 5: xelatex: { synctex: true, shell: yes }
+14 Sep 2023 10:02:16.556 INFO  -                     All directives were validated. We are good to go.
                     -------------------------- DIRECTIVES ---------------------------
                     Directive(identifier='xelatex', parameters={shell=yes, reference=C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class\thesis.tex},conditional={ NONE }, lineNumbers=[1])
 Directive(identifier='biber', parameters={reference=C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class\thesis.tex},conditional={ NONE }, lineNumbers=[2])
@@ -23,22 +23,18 @@ Directive(identifier='makeglossaries', parameters={reference=C:\Users\denisov\ow
 Directive(identifier='xelatex', parameters={shell=yes, reference=C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class\thesis.tex},conditional={ NONE }, lineNumbers=[4])
 Directive(identifier='xelatex', parameters={synctex=true, shell=yes, reference=C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class\thesis.tex},conditional={ NONE }, lineNumbers=[5])
                     -----------------------------------------------------------------
-13 Sep 2023 16:09:31.677 INFO  - I am ready to interpret rule "xelatex".
-13 Sep 2023 16:09:31.693 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
-13 Sep 2023 16:09:31.773 INFO  - I am ready to interpret task "XeLaTeX engine" from rule "XeLaTeX".
-13 Sep 2023 16:09:31.773 INFO  - System command: [xelatex, --shell-escape, thesis.tex] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
-13 Sep 2023 16:09:35.779 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+14 Sep 2023 10:02:16.558 INFO  - I am ready to interpret rule "xelatex".
+14 Sep 2023 10:02:16.559 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
+14 Sep 2023 10:02:16.648 INFO  - I am ready to interpret task "XeLaTeX engine" from rule "XeLaTeX".
+14 Sep 2023 10:02:16.648 INFO  - System command: [xelatex, --shell-escape, thesis.tex] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
+14 Sep 2023 10:02:21.128 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex.fmt)
  \write18 enabled.
 entering extended mode
 (thesis.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
-(thesis-Bordeaux-copy.cls
-
-LaTeX Warning: You have requested document class `thesis-Bordeaux-copy',
-               but the document class provides `thesis-Bordeaux'.
-
+(thesis-Bordeaux.cls
 Document Class: thesis-Bordeaux 2014/10/15 Thesis of Bordeaux University
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
@@ -140,6 +136,7 @@ Loading lettrine.cfg
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cfg
 ))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\perpage.sty)
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/epigraph\epigraph.sty
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/nextpage\nextpage.sty
@@ -337,12 +334,16 @@ x))
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty)
-(thesis.aux (parts/front/Resume.aux))
+No file thesis.aux.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
-) (thesis.out) (thesis.out)
+)
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tr
 anslations-basic-dictionary-french.trsl)
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tr
@@ -350,7 +351,9 @@ anslations-basic-dictionary-english.trsl)
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\french.l
 bx)
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.
-lbx) (thesis.bbl) (parts/frontmatter.tex (parts/titlepage.tex
+lbx)
+No file thesis.bbl.
+(parts/frontmatter.tex (parts/titlepage.tex
 
 Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 
@@ -365,20 +368,16 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16> not available
 [2]) (parts/front/Dedication.tex [3]) (parts/front/Preface.tex [4]
 Underfull \vbox (badness 10000) has occurred while \output is active [5]
 [6]) (parts/front/Acknowledgments.tex [7]) (parts/front/Resume.tex [8]
-(parts/front/resume/introFr.tex)) [9] [10] (thesis.toc) [11] [12] (thesis.lof
-
-Package imakeidx Warning: Undefined index file `thesis' on input line 20.
-
-
-Package imakeidx Warning: Undefined index file `thesis' on input line 21.
-
-
-Package imakeidx Warning: Undefined index file `thesis' on input line 23.
-
-) [13] [14] (thesis.lot)) (parts/mainmatter.tex [15] [16]
-(parts/main/chapter1.tex
+(parts/front/resume/introFr.tex)) [9] [10]
+No file thesis.toc.
+[11] [12]
+No file thesis.lof.
+[13] [14]
+No file thesis.lot.
+) (parts/mainmatter.tex [15] [16] (parts/main/chapter1.tex
 Chapter 1.
-(thesis.ptc) [1]
+No file thesis.ptc.
+[1]
 Overfull \hbox (28.26385pt too wide) in paragraph at lines 60--61
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][]\TU/TimesNewRoman(1)/m/n/12 , exampl
@@ -401,38 +400,93 @@ m/it/12 settings/Bib.tex \TU/TimesNewRoman(1)/m/n/12 file. The library itself i
 s stored in \TU/TimesNewRoman(0)/m/it/12 bibliography.thesis-
 [4]
 
-Package imakeidx Warning: Undefined index file `thesis' on input line 155.
+LaTeX Warning: Citation 'Berlman1971' on page 5 undefined on input line 155.
 
-[5]) (parts/main/chapter2.tex [6]
+[5]
+
+LaTeX Warning: Reference `ch:how-to-use' on page 6 undefined on input line 228.
+
+
+
+LaTeX Warning: Reference `ch:how-to-use' on page 6 undefined on input line 229.
+
+
+) (parts/main/chapter2.tex [6]
 Chapter 2.
-(thesis.ptc) [7]
+No file thesis.ptc.
+[7]
 
-Package imakeidx Warning: Undefined index file `thesis' on input line 30.
-
-
-Package imakeidx Warning: Undefined index file `thesis' on input line 34.
+LaTeX Warning: Reference `ch:2chapter' on page 8 undefined on input line 11.
 
 
-Package imakeidx Warning: Undefined index file `thesis' on input line 36.
+LaTeX Warning: Reference `fig:molecules' on page 8 undefined on input line 16.
+
+
+LaTeX Warning: Reference `sec:2ch-data' on page 8 undefined on input line 16.
+
+
+LaTeX Warning: Reference `sec:2ch-data' on page 8 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'adamson-1983' on page 8 undefined on input line 30.
+
+
+LaTeX Warning: Citation 'adamson-1983' on page 8 undefined on input line 30.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]\TU/TimesNewRoman(1)/m/n/10.95 Figure 2.2. |Energy versus distortion dia-
+
+LaTeX Warning: Citation 'adamson-1983' on page 8 undefined on input line 34.
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 34--34
+[][]\TU/TimesNewRoman(1)/m/n/12 The work of Adamson[[]]
+
+LaTeX Warning: Citation 'adamson-1983' on page 8 undefined on input line 36.
 
 [8]
 
-Package imakeidx Warning: Undefined index file `thesis' on input line 38.
+LaTeX Warning: Citation 'adamson-1983' on page 9 undefined on input line 38.
 
 
-Package imakeidx Warning: Undefined index file `thesis' on input line 47.
+LaTeX Warning: Reference `fig:energydistoration' on page 9 undefined on input l
+ine 40.
 
 
-Package imakeidx Warning: Undefined index file `thesis' on input line 51.
+LaTeX Warning: Citation 'adamson-1983' on page 9 undefined on input line 47.
 
 
-Package imakeidx Warning: Undefined index file `thesis' on input line 51.
+LaTeX Warning: Citation 'adamson-1983' on page 9 undefined on input line 47.
 
 
-Package imakeidx Warning: Undefined index file `thesis' on input line 53.
+LaTeX Warning: Citation 'turro-1991' on page 9 undefined on input line 51.
 
 
-Package imakeidx Warning: Undefined index file `thesis' on input line 57.
+LaTeX Warning: Citation 'adamson-1983' on page 9 undefined on input line 51.
+
+
+LaTeX Warning: Reference `fig:cageeffect' on page 9 undefined on input line 53.
+
+
+
+LaTeX Warning: Citation 'adamson-1983' on page 9 undefined on input line 53.
+
+
+LaTeX Warning: Reference `fig:jablonski-example' on page 9 undefined on input l
+ine 55.
+
+
+LaTeX Warning: Reference `fig:potential-surface' on page 9 undefined on input l
+ine 55.
+
+
+LaTeX Warning: Citation 'montalti-book-2006' on page 9 undefined on input line 
+57.
+
+
+LaTeX Warning: Citation 'montalti-book-2006' on page 9 undefined on input line 
+57.
 
 
 Underfull \hbox (badness 2343) in paragraph at lines 57--57
@@ -444,55 +498,89 @@ Underfull \hbox (badness 7558) in paragraph at lines 57--57
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Reference `fig:molecules' on page 9 undefined on input line 61.
+
+
+LaTeX Warning: Reference `fig:molecules' on page 9 undefined on input line 61.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9]
+
+Underfull \vbox (badness 10000) has occurred while \output is active [9]
+
+LaTeX Warning: Reference `eq:one-level' on page 10 undefined on input line 69.
+
+
+LaTeX Warning: Reference `eq:solution-one-level' on page 10 undefined on input 
+line 69.
+
+
+LaTeX Warning: Reference `table:Ranges' on page 10 undefined on input line 93.
+
+
+LaTeX Warning: Reference `fig:conclusion' on page 10 undefined on input line 93
+.
+
+
 Overfull \hbox (50.44994pt too wide) in paragraph at lines 96--96
  [][] 
-
-Underfull \vbox (badness 10000) has occurred while \output is active [10]
-(parts/main/article.tex [11] [12] [13] [14])) (parts/Appendixes.tex
+[10] (parts/main/article.tex [11] [12] [13] [14])) (parts/Appendixes.tex
 Appendix A.
 )) (parts/backmatter.tex [15] [16]This is makeindex, version 2.16 [MiKTeX 23.5].
-Scanning input file cite.idx....done (17 entries accepted, 0 rejected).
-Sorting entries....done (70 comparisons).
-Generating output file cite.ind....done (30 lines written, 0 warnings).
+Scanning input file cite.idx....done (4 entries accepted, 0 rejected).
+Sorting entries....done (12 comparisons).
+Generating output file cite.ind....done (17 lines written, 0 warnings).
 Output written in cite.ind.
 Transcript written in cite.ilg.
 
 
-Package biblatex Warning: Name format 'last-first' deprecated.
-(biblatex)                Please use 'family-given' instead.
-(biblatex)                Using 'family-given' now.
+LaTeX Warning: Empty bibliography on input line 10.
 
-(cite.ind [17] [18])
+(cite.ind)
 No file thesis.acr.
 )
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 415.
+Package caption Warning: Unused \captionsetup[subfigure] on input line 396.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[subtable] on input line 417.
+Package caption Warning: Unused \captionsetup[subtable] on input line 398.
 See the caption package documentation for explanation.
 
-[19] (thesis.aux (parts/front/Resume.aux))
+[17] (thesis.aux (parts/front/Resume.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
  )
 (see the transcript file for additional information)
-Output written on thesis.pdf (35 pages).
+Output written on thesis.pdf (33 pages).
 Transcript written on thesis.log.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-13 Sep 2023 16:09:35.779 INFO  - Task result: SUCCESS
-13 Sep 2023 16:09:35.779 INFO  - I am ready to interpret rule "biber".
-13 Sep 2023 16:09:35.779 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
-13 Sep 2023 16:09:35.779 INFO  - I am ready to interpret task "The Biber reference management software" from rule "Biber".
-13 Sep 2023 16:09:35.795 INFO  - System command: [biber, thesis] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
-13 Sep 2023 16:09:37.448 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+14 Sep 2023 10:02:21.131 INFO  - Task result: SUCCESS
+14 Sep 2023 10:02:21.131 INFO  - I am ready to interpret rule "biber".
+14 Sep 2023 10:02:21.133 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
+14 Sep 2023 10:02:21.138 INFO  - I am ready to interpret task "The Biber reference management software" from rule "Biber".
+14 Sep 2023 10:02:21.138 INFO  - System command: [biber, thesis] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
+14 Sep 2023 10:02:27.251 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 INFO - This is Biber 2.19
 INFO - Logfile is 'thesis.blg'
 INFO - Reading 'thesis.bcf'
@@ -501,49 +589,45 @@ INFO - Processing section 0
 INFO - Looking for bibtex file 'bibliography/thesis-bib.bib' for section 0
 INFO - LaTeX decoding ...
 INFO - Found BibTeX data source 'bibliography/thesis-bib.bib'
-INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'fr-FR'
 INFO - No sort tailoring available for locale 'fr-FR'
 INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
 INFO - Output to thesis.bbl
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-13 Sep 2023 16:09:37.448 INFO  - Task result: SUCCESS
-13 Sep 2023 16:09:37.448 INFO  - I am ready to interpret rule "makeglossaries".
-13 Sep 2023 16:09:37.448 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
-13 Sep 2023 16:09:37.448 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
-13 Sep 2023 16:09:37.448 INFO  - System command: [makeglossaries, thesis] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
-13 Sep 2023 16:09:38.014 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+14 Sep 2023 10:02:27.251 INFO  - Task result: SUCCESS
+14 Sep 2023 10:02:27.251 INFO  - I am ready to interpret rule "makeglossaries".
+14 Sep 2023 10:02:27.253 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
+14 Sep 2023 10:02:27.263 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
+14 Sep 2023 10:02:27.263 INFO  - System command: [makeglossaries, thesis] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
+14 Sep 2023 10:02:28.162 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 makeglossaries version 4.51 (2022-11-02)
 added glossary type 'acronym' (alg,acr,acn)
 makeindex  -s "thesis.ist" -t "thesis.alg" -o "thesis.acr" "thesis.acn"
 This is makeindex, version 2.16 [MiKTeX 23.5].
 Scanning style file ./thesis.ist...........................done (27 attributes redefined, 0 ignored).
-Scanning input file thesis.acn....done (16 entries accepted, 0 rejected).
-Sorting entries....done (66 comparisons).
-Generating output file thesis.acr....done (25 lines written, 0 warnings).
+Scanning input file thesis.acn....done (14 entries accepted, 0 rejected).
+Sorting entries....done (52 comparisons).
+Generating output file thesis.acr....done (24 lines written, 0 warnings).
 Output written in thesis.acr.
 Transcript written in thesis.alg.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-13 Sep 2023 16:09:38.014 INFO  - Task result: SUCCESS
-13 Sep 2023 16:09:38.014 INFO  - I am ready to interpret rule "xelatex".
-13 Sep 2023 16:09:38.030 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
-13 Sep 2023 16:09:38.030 INFO  - I am ready to interpret task "XeLaTeX engine" from rule "XeLaTeX".
-13 Sep 2023 16:09:38.030 INFO  - System command: [xelatex, --shell-escape, thesis.tex] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
-13 Sep 2023 16:09:41.995 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+14 Sep 2023 10:02:28.162 INFO  - Task result: SUCCESS
+14 Sep 2023 10:02:28.162 INFO  - I am ready to interpret rule "xelatex".
+14 Sep 2023 10:02:28.163 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
+14 Sep 2023 10:02:28.171 INFO  - I am ready to interpret task "XeLaTeX engine" from rule "XeLaTeX".
+14 Sep 2023 10:02:28.172 INFO  - System command: [xelatex, --shell-escape, thesis.tex] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
+14 Sep 2023 10:02:32.244 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex.fmt)
  \write18 enabled.
 entering extended mode
 (thesis.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
-(thesis-Bordeaux-copy.cls
-
-LaTeX Warning: You have requested document class `thesis-Bordeaux-copy',
-               but the document class provides `thesis-Bordeaux'.
-
+(thesis-Bordeaux.cls
 Document Class: thesis-Bordeaux 2014/10/15 Thesis of Bordeaux University
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
@@ -645,6 +729,7 @@ Loading lettrine.cfg
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cfg
 ))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\perpage.sty)
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/epigraph\epigraph.sty
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/nextpage\nextpage.sty
@@ -972,11 +1057,11 @@ Package biblatex Warning: Name format 'last-first' deprecated.
 
 (cite.ind [17] [18]) (thesis.acr [19] [20]))
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 415.
+Package caption Warning: Unused \captionsetup[subfigure] on input line 396.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[subtable] on input line 417.
+Package caption Warning: Unused \captionsetup[subtable] on input line 398.
 See the caption package documentation for explanation.
 
 [21] (thesis.aux (parts/front/Resume.aux))
@@ -985,9 +1070,18 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
 
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package rerunfilecheck Warning: File `thesis.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
+
+
+Package biblatex Warning: Please rerun LaTeX.
 
  )
 (see the transcript file for additional information)
@@ -995,23 +1089,19 @@ Output written on thesis.pdf (37 pages).
 Transcript written on thesis.log.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-13 Sep 2023 16:09:41.995 INFO  - Task result: SUCCESS
-13 Sep 2023 16:09:41.995 INFO  - I am ready to interpret rule "xelatex".
-13 Sep 2023 16:09:41.997 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
-13 Sep 2023 16:09:42.002 INFO  - I am ready to interpret task "XeLaTeX engine" from rule "XeLaTeX".
-13 Sep 2023 16:09:42.002 INFO  - System command: [xelatex, --shell-escape, --synctex=1, thesis.tex] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
-13 Sep 2023 16:09:45.876 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+14 Sep 2023 10:02:32.244 INFO  - Task result: SUCCESS
+14 Sep 2023 10:02:32.245 INFO  - I am ready to interpret rule "xelatex".
+14 Sep 2023 10:02:32.246 INFO  - Rule location: "C:\Users\denisov\AppData\Local\Programs\MiKTeX\scripts\arara\rules"
+14 Sep 2023 10:02:32.253 INFO  - I am ready to interpret task "XeLaTeX engine" from rule "XeLaTeX".
+14 Sep 2023 10:02:32.253 INFO  - System command: [xelatex, --shell-escape, --synctex=1, thesis.tex] @ C:\Users\denisov\ownCloud\LCP\HDR\HDRmanuscript\thesis-class
+14 Sep 2023 10:02:36.234 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex.fmt)
  \write18 enabled.
 entering extended mode
 (thesis.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
-(thesis-Bordeaux-copy.cls
-
-LaTeX Warning: You have requested document class `thesis-Bordeaux-copy',
-               but the document class provides `thesis-Bordeaux'.
-
+(thesis-Bordeaux.cls
 Document Class: thesis-Bordeaux 2014/10/15 Thesis of Bordeaux University
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
@@ -1113,6 +1203,7 @@ Loading lettrine.cfg
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cfg
 ))
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\perpage.sty)
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/epigraph\epigraph.sty
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/nextpage\nextpage.sty
@@ -1440,11 +1531,11 @@ Package biblatex Warning: Name format 'last-first' deprecated.
 
 (cite.ind [17] [18]) (thesis.acr [19] [20]))
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 415.
+Package caption Warning: Unused \captionsetup[subfigure] on input line 396.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[subtable] on input line 417.
+Package caption Warning: Unused \captionsetup[subtable] on input line 398.
 See the caption package documentation for explanation.
 
 [21] (thesis.aux (parts/front/Resume.aux))
@@ -1459,5 +1550,5 @@ SyncTeX written on thesis.synctex.gz.
 Transcript written on thesis.log.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-13 Sep 2023 16:09:45.876 INFO  - Task result: SUCCESS
-13 Sep 2023 16:09:45.876 INFO  - Total: 14.530 seconds
+14 Sep 2023 10:02:36.234 INFO  - Task result: SUCCESS
+14 Sep 2023 10:02:36.236 INFO  - Total: 20.19 seconds

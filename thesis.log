@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.9.11)  13 SEP 2023 16:09
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.9.11)  14 SEP 2023 10:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -6,11 +6,7 @@ entering extended mode
 (thesis.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
-(thesis-Bordeaux-copy.cls
-
-LaTeX Warning: You have requested document class `thesis-Bordeaux-copy',
-               but the document class provides `thesis-Bordeaux'.
-
+(thesis-Bordeaux.cls
 Document Class: thesis-Bordeaux 2014/10/15 Thesis of Bordeaux University
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
@@ -386,6 +382,10 @@ Loading lettrine.cfg
 )
 \Llist@everypar=\toks43
 )
+(C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\perpage.sty
+Package: perpage 2014/10/25 2.0 Reset/sort counters per page
+\c@abspage=\count295
+)
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/epigraph\epigraph.sty
 Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
 
@@ -400,7 +400,7 @@ Package: nextpage 2009/09/03 v1.1a additional page commands
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip84
-\multirow@cntb=\count295
+\multirow@cntb=\count296
 \multirow@dima=\skip85
 \bigstrutjot=\dimen192
 )
@@ -430,7 +430,7 @@ File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count296
+\c@r@tfl@t=\count297
 \rotFPtop=\skip86
 \rotFPbot=\skip87
 \rot@float@box=\box63
@@ -451,16 +451,16 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box66
-\sift@deathcycles=\count297
+\sift@deathcycles=\count298
 \@vwid@loff=\dimen197
 \@vwid@roff=\dimen198
 )
-\c@taburow=\count298
-\tabu@nbcols=\count299
-\tabu@cnt=\count300
-\tabu@Xcol=\count301
-\tabu@alloc=\count302
-\tabu@nested=\count303
+\c@taburow=\count299
+\tabu@nbcols=\count300
+\tabu@cnt=\count301
+\tabu@Xcol=\count302
+\tabu@alloc=\count303
+\tabu@nested=\count304
 \tabu@target=\dimen199
 \tabu@spreadtarget=\dimen256
 \tabu@naturalX=\dimen257
@@ -481,7 +481,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen264
-\c@nlinenum=\count304
+\c@nlinenum=\count305
 \TeXr@lab=\toks48
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/threeparttablex\three
@@ -506,24 +506,24 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count305
+\c@KVtest=\count306
 \sf@farskip=\skip92
 \sf@captopadj=\dimen265
 \sf@capskip=\skip93
 \sf@nearskip=\skip94
-\c@subfigure=\count306
-\c@subfigure@save=\count307
-\c@lofdepth=\count308
-\c@subtable=\count309
-\c@subtable@save=\count310
-\c@lotdepth=\count311
+\c@subfigure=\count307
+\c@subfigure@save=\count308
+\c@lofdepth=\count309
+\c@subtable=\count310
+\c@subtable@save=\count311
+\c@lotdepth=\count312
 \sf@top=\skip95
 \sf@bottom=\skip96
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen266
 \WF@size=\dimen267
-\c@WF@wrappedlines=\count312
+\c@WF@wrappedlines=\count313
 \WF@box=\box72
 \WF@everypar=\toks50
 Package: wrapfig 2003/01/31  v 3.6
@@ -540,15 +540,15 @@ ty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
  (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count313
-\calc@Bcount=\count314
+\calc@Acount=\count314
+\calc@Bcount=\count315
 \calc@Adimen=\dimen268
 \calc@Bdimen=\dimen269
 \calc@Askip=\skip97
 \calc@Bskip=\skip98
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count315
+\calc@Ccount=\count316
 \calc@Cskip=\skip99
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
@@ -572,14 +572,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count316
+\inf@bad=\count317
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count317
-\leftroot@=\count318
+\uproot@=\count318
+\leftroot@=\count319
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count319
-\DOTSCASE@=\count320
+\classnum@=\count320
+\DOTSCASE@=\count321
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -592,20 +592,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen272
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count321
+\macc@depth=\count322
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count322
+\c@MaxMatrixCols=\count323
 \dotsspace@=\muskip17
-\c@parentequation=\count323
-\dspbrk@lvl=\count324
+\c@parentequation=\count324
+\dspbrk@lvl=\count325
 \tag@help=\toks52
-\row@=\count325
-\column@=\count326
-\maxfields@=\count327
+\row@=\count326
+\column@=\count327
+\maxfields@=\count328
 \andhelp@=\toks53
 \eqnshift@=\dimen273
 \alignsep@=\dimen274
@@ -620,7 +620,7 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-\g_MT_multlinerow_int=\count328
+\g_MT_multlinerow_int=\count329
 \l_MT_multwidth_dim=\dimen279
 \origjot=\skip103
 \l_MT_shortvdotswithinadjustabove_dim=\dimen280
@@ -633,20 +633,20 @@ LaTeX Info: Redefining \] on input line 2954.
 \xmathstrut@dim=\dimen286
 ) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2023-09-01 v3.3.6 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count329
-\l__siunitx_number_exponent_fixed_int=\count330
-\l__siunitx_number_min_decimal_int=\count331
-\l__siunitx_number_min_integer_int=\count332
-\l__siunitx_number_round_precision_int=\count333
-\l__siunitx_number_lower_threshold_int=\count334
-\l__siunitx_number_upper_threshold_int=\count335
-\l__siunitx_number_group_first_int=\count336
-\l__siunitx_number_group_size_int=\count337
-\l__siunitx_number_group_minimum_int=\count338
+\l__siunitx_number_uncert_offset_int=\count330
+\l__siunitx_number_exponent_fixed_int=\count331
+\l__siunitx_number_min_decimal_int=\count332
+\l__siunitx_number_min_integer_int=\count333
+\l__siunitx_number_round_precision_int=\count334
+\l__siunitx_number_lower_threshold_int=\count335
+\l__siunitx_number_upper_threshold_int=\count336
+\l__siunitx_number_group_first_int=\count337
+\l__siunitx_number_group_size_int=\count338
+\l__siunitx_number_group_minimum_int=\count339
 \l__siunitx_angle_tmp_dim=\dimen287
 \l__siunitx_angle_marker_box=\box76
 \l__siunitx_angle_unit_box=\box77
-\l__siunitx_compound_count_int=\count339
+\l__siunitx_compound_count_int=\count340
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/translations\translat
 ions.sty
@@ -663,31 +663,32 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 \l__siunitx_table_after_box=\box83
 \l__siunitx_table_before_dim=\dimen290
 \l__siunitx_table_carry_dim=\dimen291
-\l__siunitx_unit_tmp_int=\count340
-\l__siunitx_unit_position_int=\count341
-\l__siunitx_unit_total_int=\count342
+\l__siunitx_unit_tmp_int=\count341
+\l__siunitx_unit_position_int=\count342
+\l__siunitx_unit_total_int=\count343
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
-\c@totalfigures=\count343
-\c@totaltables=\count344
+\c@pp@a@footnote=\count344
+\c@totalfigures=\count345
+\c@totaltables=\count346
 Package hyperref Info: Option `colorlinks' set `false' on input line 211.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 211.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 211.
 
-\c@citnum=\count345
-\c@citnum@totc=\count346
+\c@citnum=\count347
+\c@citnum@totc=\count348
 )
 (settings/Commands.tex) (settings/Bib.tex
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
-\csq@reset=\count347
-\csq@gtype=\count348
-\csq@glevel=\count349
-\csq@qlevel=\count350
-\csq@maxlvl=\count351
-\csq@tshold=\count352
+\csq@reset=\count349
+\csq@gtype=\count350
+\csq@glevel=\count351
+\csq@qlevel=\count352
+\csq@maxlvl=\count353
+\csq@tshold=\count354
 \csq@ltx@everypar=\toks56
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
@@ -703,54 +704,54 @@ File: csquotes.cfg
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count353
+\lrq@indent=\count355
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count354
-\c@listtotal=\count355
-\c@listcount=\count356
-\c@liststart=\count357
-\c@liststop=\count358
-\c@citecount=\count359
-\c@citetotal=\count360
-\c@multicitecount=\count361
-\c@multicitetotal=\count362
-\c@instcount=\count363
-\c@maxnames=\count364
-\c@minnames=\count365
-\c@maxitems=\count366
-\c@minitems=\count367
-\c@citecounter=\count368
-\c@maxcitecounter=\count369
-\c@savedcitecounter=\count370
-\c@uniquelist=\count371
-\c@uniquename=\count372
-\c@refsection=\count373
-\c@refsegment=\count374
-\c@maxextratitle=\count375
-\c@maxextratitleyear=\count376
-\c@maxextraname=\count377
-\c@maxextradate=\count378
-\c@maxextraalpha=\count379
-\c@abbrvpenalty=\count380
-\c@highnamepenalty=\count381
-\c@lownamepenalty=\count382
-\c@maxparens=\count383
-\c@parenlevel=\count384
-\blx@tempcnta=\count385
-\blx@tempcntb=\count386
-\blx@tempcntc=\count387
-\c@blx@maxsection=\count388
-\blx@maxsegment@0=\count389
-\blx@notetype=\count390
-\blx@parenlevel@text=\count391
-\blx@parenlevel@foot=\count392
-\blx@sectionciteorder@0=\count393
-\blx@sectionciteorderinternal@0=\count394
-\blx@entrysetcounter=\count395
-\blx@biblioinstance=\count396
+\c@tabx@nest=\count356
+\c@listtotal=\count357
+\c@listcount=\count358
+\c@liststart=\count359
+\c@liststop=\count360
+\c@citecount=\count361
+\c@citetotal=\count362
+\c@multicitecount=\count363
+\c@multicitetotal=\count364
+\c@instcount=\count365
+\c@maxnames=\count366
+\c@minnames=\count367
+\c@maxitems=\count368
+\c@minitems=\count369
+\c@citecounter=\count370
+\c@maxcitecounter=\count371
+\c@savedcitecounter=\count372
+\c@uniquelist=\count373
+\c@uniquename=\count374
+\c@refsection=\count375
+\c@refsegment=\count376
+\c@maxextratitle=\count377
+\c@maxextratitleyear=\count378
+\c@maxextraname=\count379
+\c@maxextradate=\count380
+\c@maxextraalpha=\count381
+\c@abbrvpenalty=\count382
+\c@highnamepenalty=\count383
+\c@lownamepenalty=\count384
+\c@maxparens=\count385
+\c@parenlevel=\count386
+\blx@tempcnta=\count387
+\blx@tempcntb=\count388
+\blx@tempcntc=\count389
+\c@blx@maxsection=\count390
+\blx@maxsegment@0=\count391
+\blx@notetype=\count392
+\blx@parenlevel@text=\count393
+\blx@parenlevel@foot=\count394
+\blx@sectionciteorder@0=\count395
+\blx@sectionciteorderinternal@0=\count396
+\blx@entrysetcounter=\count397
+\blx@biblioinstance=\count398
 \labelnumberwidth=\skip104
 \labelalphawidth=\skip105
 \biblabelsep=\skip106
@@ -762,9 +763,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read5
 \blx@bcfout=\write3
 \blx@langwohyphens=\language79
-\c@mincomprange=\count397
-\c@maxcomprange=\count398
-\c@mincompwidth=\count399
+\c@mincomprange=\count399
+\c@maxcomprange=\count400
+\c@mincompwidth=\count401
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -775,74 +776,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'custom-numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count400
-\c@savedafterword=\count401
-\c@annotator=\count402
-\c@savedannotator=\count403
-\c@author=\count404
-\c@savedauthor=\count405
-\c@bookauthor=\count406
-\c@savedbookauthor=\count407
-\c@commentator=\count408
-\c@savedcommentator=\count409
-\c@editor=\count410
-\c@savededitor=\count411
-\c@editora=\count412
-\c@savededitora=\count413
-\c@editorb=\count414
-\c@savededitorb=\count415
-\c@editorc=\count416
-\c@savededitorc=\count417
-\c@foreword=\count418
-\c@savedforeword=\count419
-\c@holder=\count420
-\c@savedholder=\count421
-\c@introduction=\count422
-\c@savedintroduction=\count423
-\c@namea=\count424
-\c@savednamea=\count425
-\c@nameb=\count426
-\c@savednameb=\count427
-\c@namec=\count428
-\c@savednamec=\count429
-\c@translator=\count430
-\c@savedtranslator=\count431
-\c@shortauthor=\count432
-\c@savedshortauthor=\count433
-\c@shorteditor=\count434
-\c@savedshorteditor=\count435
-\c@labelname=\count436
-\c@savedlabelname=\count437
-\c@institution=\count438
-\c@savedinstitution=\count439
-\c@lista=\count440
-\c@savedlista=\count441
-\c@listb=\count442
-\c@savedlistb=\count443
-\c@listc=\count444
-\c@savedlistc=\count445
-\c@listd=\count446
-\c@savedlistd=\count447
-\c@liste=\count448
-\c@savedliste=\count449
-\c@listf=\count450
-\c@savedlistf=\count451
-\c@location=\count452
-\c@savedlocation=\count453
-\c@organization=\count454
-\c@savedorganization=\count455
-\c@origlocation=\count456
-\c@savedoriglocation=\count457
-\c@origpublisher=\count458
-\c@savedorigpublisher=\count459
-\c@publisher=\count460
-\c@savedpublisher=\count461
-\c@language=\count462
-\c@savedlanguage=\count463
-\c@origlanguage=\count464
-\c@savedoriglanguage=\count465
-\c@pageref=\count466
-\c@savedpageref=\count467
+\c@afterword=\count402
+\c@savedafterword=\count403
+\c@annotator=\count404
+\c@savedannotator=\count405
+\c@author=\count406
+\c@savedauthor=\count407
+\c@bookauthor=\count408
+\c@savedbookauthor=\count409
+\c@commentator=\count410
+\c@savedcommentator=\count411
+\c@editor=\count412
+\c@savededitor=\count413
+\c@editora=\count414
+\c@savededitora=\count415
+\c@editorb=\count416
+\c@savededitorb=\count417
+\c@editorc=\count418
+\c@savededitorc=\count419
+\c@foreword=\count420
+\c@savedforeword=\count421
+\c@holder=\count422
+\c@savedholder=\count423
+\c@introduction=\count424
+\c@savedintroduction=\count425
+\c@namea=\count426
+\c@savednamea=\count427
+\c@nameb=\count428
+\c@savednameb=\count429
+\c@namec=\count430
+\c@savednamec=\count431
+\c@translator=\count432
+\c@savedtranslator=\count433
+\c@shortauthor=\count434
+\c@savedshortauthor=\count435
+\c@shorteditor=\count436
+\c@savedshorteditor=\count437
+\c@labelname=\count438
+\c@savedlabelname=\count439
+\c@institution=\count440
+\c@savedinstitution=\count441
+\c@lista=\count442
+\c@savedlista=\count443
+\c@listb=\count444
+\c@savedlistb=\count445
+\c@listc=\count446
+\c@savedlistc=\count447
+\c@listd=\count448
+\c@savedlistd=\count449
+\c@liste=\count450
+\c@savedliste=\count451
+\c@listf=\count452
+\c@savedlistf=\count453
+\c@location=\count454
+\c@savedlocation=\count455
+\c@organization=\count456
+\c@savedorganization=\count457
+\c@origlocation=\count458
+\c@savedoriglocation=\count459
+\c@origpublisher=\count460
+\c@savedorigpublisher=\count461
+\c@publisher=\count462
+\c@savedpublisher=\count463
+\c@language=\count464
+\c@savedlanguage=\count465
+\c@origlanguage=\count466
+\c@savedoriglanguage=\count467
+\c@pageref=\count468
+\c@savedpageref=\count469
 \shorthandwidth=\skip112
 \shortjournalwidth=\skip113
 \shortserieswidth=\skip114
@@ -874,19 +875,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count468
-\c@textcitetotal=\count469
-\c@textcitemaxnames=\count470
-\c@biburlbigbreakpenalty=\count471
-\c@biburlbreakpenalty=\count472
-\c@biburlnumpenalty=\count473
-\c@biburlucpenalty=\count474
-\c@biburllcpenalty=\count475
+\c@textcitecount=\count470
+\c@textcitetotal=\count471
+\c@textcitemaxnames=\count472
+\c@biburlbigbreakpenalty=\count473
+\c@biburlbreakpenalty=\count474
+\c@biburlnumpenalty=\count475
+\c@biburlucpenalty=\count476
+\c@biburllcpenalty=\count477
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count476
+\c@smartand=\count478
 )
 Package biblatex Info: Trying to load bibliography style 'custom-numeric-comp'.
 ..
@@ -911,8 +912,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard
 .bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count477
-\c@bbx:relatedtotal=\count478
+\c@bbx:relatedcount=\count479
+\c@bbx:relatedtotal=\count480
 ))))
 Package biblatex Info: Trying to load citation style 'custom-numeric-comp'...
 Package biblatex Info: ... file 'custom-numeric-comp.cbx' found.
@@ -924,10 +925,10 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-
 comp.cbx
 File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count479
-\c@cbx@tempcntb=\count480
-\c@cbx@tempcntc=\count481
-\c@cbx@tempcntd=\count482
+\c@cbx@tempcnta=\count481
+\c@cbx@tempcntb=\count482
+\c@cbx@tempcntc=\count483
+\c@cbx@tempcntd=\count484
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -972,14 +973,14 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count483
+\c@tracingmulticols=\count485
 \mult@box=\box84
 \multicol@leftmargin=\dimen292
-\c@unbalance=\count484
-\c@collectmore=\count485
-\doublecol@number=\count486
-\multicoltolerance=\count487
-\multicolpretolerance=\count488
+\c@unbalance=\count486
+\c@collectmore=\count487
+\doublecol@number=\count488
+\multicoltolerance=\count489
+\multicolpretolerance=\count490
 \full@width=\dimen293
 \page@free=\dimen294
 \premulticols=\dimen295
@@ -1030,15 +1031,15 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box125
 \@tempa=\box126
 \@tempa=\box127
-\c@minrows=\count489
-\c@columnbadness=\count490
-\c@finalcolumnbadness=\count491
+\c@minrows=\count491
+\c@columnbadness=\count492
+\c@finalcolumnbadness=\count493
 \last@try=\dimen298
 \multicolovershoot=\dimen299
 \multicolundershoot=\dimen300
 \mult@nat@firstbox=\box128
 \colbreak@box=\box129
-\mc@col@check@num=\count492
+\mc@col@check@num=\count494
 ))
 \pms@idxfile=\write4
 \openout4 = `pms.idx'.
@@ -1066,7 +1067,7 @@ Package: datatool-base 2019/09/27 v2.32 (NLCT)
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count493
+\c@su@anzahl=\count495
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.
 sty
@@ -1077,19 +1078,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count494
+\actioncount=\count496
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count495
-\FP@xia=\count496
-\FP@xib=\count497
-\FP@xfa=\count498
-\FP@xfb=\count499
-\FP@rega=\count500
-\FP@regb=\count501
-\FP@regs=\count502
-\FP@times=\count503
+\FP@xs=\count497
+\FP@xia=\count498
+\FP@xib=\count499
+\FP@xfa=\count500
+\FP@xfb=\count501
+\FP@rega=\count502
+\FP@regb=\count503
+\FP@regs=\count504
+\FP@times=\count505
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -1108,7 +1109,7 @@ Package: fp-pas 1994/08/29
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count504
+\FPseed=\count506
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -1120,16 +1121,16 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks59
-\@dtl@tmpcount=\count505
+\@dtl@tmpcount=\count507
 \dtl@tmplength=\skip128
-\dtl@sortresult=\count506
-\@dtl@numgrpsepcount=\count507
-\@dtl@datatype=\count508
-\dtl@codeA=\count509
-\dtl@codeB=\count510
-\@dtl@foreach@level=\count511
+\dtl@sortresult=\count508
+\@dtl@numgrpsepcount=\count509
+\@dtl@datatype=\count510
+\dtl@codeA=\count511
+\dtl@codeB=\count512
+\@dtl@foreach@level=\count513
 )
-\gls@level=\count512
+\gls@level=\count514
 \@gls@tmpb=\toks60
 \gls@tmplen=\skip129
 \glskeylisttok=\toks61
@@ -1156,17 +1157,17 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip132
 \LTpre=\skip133
 \LTpost=\skip134
-\LTchunksize=\count513
+\LTchunksize=\count515
 \LTcapwidth=\dimen301
 \LT@head=\box130
 \LT@firsthead=\box131
 \LT@foot=\box132
 \LT@lastfoot=\box133
 \LT@gbox=\box134
-\LT@cols=\count514
-\LT@rows=\count515
-\c@LT@tables=\count516
-\c@LT@chunks=\count517
+\LT@cols=\count516
+\LT@rows=\count517
+\c@LT@tables=\count518
+\c@LT@chunks=\count519
 \LT@p@ftn=\toks65
 )
 \glsdescwidth=\skip135
@@ -1179,7 +1180,7 @@ Package: glossary-super 2022/11/03 v4.52 (NLCT)
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertab
 ular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count518
+\c@tracingst=\count520
 \ST@wd=\dimen302
 \ST@rightskip=\skip137
 \ST@leftskip=\skip138
@@ -1208,13 +1209,13 @@ Package glossaries Info: Writing glossary file thesis.acn on input line 53.
 ) (settings/Fonts.tex
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2023/08/29 v3.93 The Babel package
-\babel@savecnt=\count519
+\babel@savecnt=\count521
 \U@D=\dimen312
 \l@unhyphenated=\language80
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
 \bbl@readstream=\read6
-\bbl@dirlevel=\count520
+\bbl@dirlevel=\count522
 
 *************************************
 * Local config file bblopts.cfg used
@@ -1240,7 +1241,7 @@ Package babel Info: Hyphen rules for 'acadian' set to \l@french
 (babel)             (\language22). Reported on input line 91.
 Package babel Info: Hyphen rules for 'canadien' set to \l@french
 (babel)             (\language22). Reported on input line 92.
-\FB@nonchar=\count521
+\FB@nonchar=\count523
 Package french.ldf Info: No need for active punctuation characters
 (french.ldf)             with this version of XeTeX!
 (french.ldf)             reported on input line 310.
@@ -1250,14 +1251,14 @@ Package french.ldf Info: No need for active punctuation characters
 \FB@guilo=\XeTeXcharclass4
 \FB@guilf=\XeTeXcharclass5
 \FB@guilnul=\XeTeXcharclass6
-\FBguill@level=\count522
+\FBguill@level=\count524
 \FBold@everypar=\toks66
 \FB@Mht=\dimen313
-\mc@charclass=\count523
-\mc@charfam=\count524
-\mc@charslot=\count525
-\std@mcc=\count526
-\dec@mcc=\count527
+\mc@charclass=\count525
+\mc@charfam=\count526
+\mc@charslot=\count527
+\std@mcc=\count528
+\dec@mcc=\count529
 \FB@parskip=\dimen314
 \listindentFB=\dimen315
 \descindentFB=\dimen316
@@ -1291,17 +1292,17 @@ Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 ex.sty
 Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count528
-\l__fontspec_language_int=\count529
-\l__fontspec_strnum_int=\count530
-\l__fontspec_tmp_int=\count531
-\l__fontspec_tmpa_int=\count532
-\l__fontspec_tmpb_int=\count533
-\l__fontspec_tmpc_int=\count534
-\l__fontspec_em_int=\count535
-\l__fontspec_emdef_int=\count536
-\l__fontspec_strong_int=\count537
-\l__fontspec_strongdef_int=\count538
+\l__fontspec_script_int=\count530
+\l__fontspec_language_int=\count531
+\l__fontspec_strnum_int=\count532
+\l__fontspec_tmp_int=\count533
+\l__fontspec_tmpa_int=\count534
+\l__fontspec_tmpb_int=\count535
+\l__fontspec_tmpc_int=\count536
+\l__fontspec_em_int=\count537
+\l__fontspec_emdef_int=\count538
+\l__fontspec_strong_int=\count539
+\l__fontspec_strongdef_int=\count540
 \l__fontspec_tmpa_dim=\dimen322
 \l__fontspec_tmpb_dim=\dimen323
 \l__fontspec_tmpc_dim=\dimen324
@@ -1311,9 +1312,9 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg
 )))
-\c@eu@=\count539
-\c@eu@i=\count540
-\c@mkern=\count541
+\c@eu@=\count541
+\c@eu@i=\count542
+\c@mkern=\count543
 )
 
 Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
@@ -1524,9 +1525,9 @@ on input line 26.
 Package: l3keys2e 2023-08-29 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count542
-\l__lipsum_a_int=\count543
-\l__lipsum_b_int=\count544
+\g__lipsum_par_int=\count544
+\l__lipsum_a_int=\count545
+\l__lipsum_b_int=\count546
 
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex
 )) (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
@@ -1556,10 +1557,10 @@ Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 \SOUL@hyphkern=\dimen328
 \SOUL@dimen=\dimen329
 \SOUL@dimeni=\dimen330
-\SOUL@minus=\count545
-\SOUL@comma=\count546
-\SOUL@apo=\count547
-\SOUL@grave=\count548
+\SOUL@minus=\count547
+\SOUL@comma=\count548
+\SOUL@apo=\count549
+\SOUL@grave=\count550
 \SOUL@spaceskip=\skip141
 \SOUL@ttwidth=\dimen331
 \SOUL@uldp=\dimen332
@@ -1583,13 +1584,13 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def
 File: ppxetex.def 2022/12/19 v0.5x Pdfpages driver for XeTeX (AM)
 )
-\pdfpages@includegraphics@status=\count549
+\pdfpages@includegraphics@status=\count551
 \AM@pagebox=\box136
 \AM@global@opts=\toks73
-\AM@pagecnt=\count550
+\AM@pagecnt=\count552
 \AM@toc@title=\toks74
 \AM@lof@heading=\toks75
-\c@AM@survey=\count551
+\c@AM@survey=\count553
 \AM@templatesizebox=\box137
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.s
@@ -1628,22 +1629,22 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count552
+\lst@mode=\count554
 \lst@gtempboxa=\box138
 \lst@token=\toks76
-\lst@length=\count553
+\lst@length=\count555
 \lst@currlwidth=\dimen339
-\lst@column=\count554
-\lst@pos=\count555
+\lst@column=\count556
+\lst@pos=\count557
 \lst@lostspace=\dimen340
 \lst@width=\dimen341
-\lst@newlines=\count556
-\lst@lineno=\count557
+\lst@newlines=\count558
+\lst@lineno=\count559
 \lst@maxwidth=\dimen342
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count558
-\lst@skipnumbers=\count559
+\c@lstnumber=\count560
+\lst@skipnumbers=\count561
 \lst@framebox=\box139
 )
 (C:\Users\denisov\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -1811,7 +1812,7 @@ Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with paralist package,
 (french.ldf)             reported on input line 29.
 LaTeX Info: Redefining \up on input line 29.
-\c@lstlisting=\count560
+\c@lstlisting=\count562
  (parts/frontmatter.tex (parts/titlepage.tex
 
 Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
@@ -1978,7 +1979,7 @@ Package imakeidx Warning: Undefined index file `thesis' on input line 23.
 ]
 (parts/main/chapter1.tex
 Chapter 1.
-\c@ttl@toc@chapter=\count561
+\c@ttl@toc@chapter=\count563
 (thesis.ptc) [1
 
 ]
@@ -2153,11 +2154,11 @@ runsystem(makeindex cite.idx)...executed safely (allowed).
 
 ]))
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 415.
+Package caption Warning: Unused \captionsetup[subfigure] on input line 396.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[subtable] on input line 417.
+Package caption Warning: Unused \captionsetup[subtable] on input line 398.
 See the caption package documentation for explanation.
 
 \tf@ptc=\write12
@@ -2182,10 +2183,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40430 strings out of 410379
- 804587 string characters out of 5787645
+ 40496 strings out of 410379
+ 805581 string characters out of 5787645
  2069432 words of memory out of 5000000
- 61081 multiletter control sequences out of 15000+600000
+ 61144 multiletter control sequences out of 15000+600000
  566415 words of font info for 140 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,17n,131p,2279b,6843s stack positions out of 10000i,1000n,20000p,200000b,200000s
